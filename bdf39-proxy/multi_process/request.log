@@ -1,0 +1,730 @@
+
+REQUEST (thread_index=0):
+GET http://www.ucla.edu/ HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=1):
+GET http://www.ucla.edu/css/main.css HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 19 Jan 2017 19:09:51 GMT
+If-None-Match: W/"58810eff-c8cc"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=2):
+GET http://www.ucla.edu/css/responsive.css HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 26 Jan 2017 18:57:41 GMT
+If-None-Match: W/"588a46a5-4330"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=3):
+GET http://www.ucla.edu/css/print.css HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:18 GMT
+If-None-Match: W/"53629bde-1105"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=4):
+GET http://www.ucla.edu/css/centennial-takeover.css HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 23 Sep 2016 00:11:43 GMT
+If-None-Match: W/"57e4733f-7f4"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=5):
+GET http://www.ucla.edu/js/modernizr.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-1fcb"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=6):
+GET http://www.ucla.edu/js/analytics.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 05 Feb 2015 20:44:27 GMT
+If-None-Match: W/"54d3d62b-b14"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=7):
+GET http://a.adtpix.com/px/?id=104885 HTTP/1.1
+Host: a.adtpix.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=8):
+GET http://www.ucla.edu/js/respond.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-fe5"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=9):
+GET http://www.ucla.edu/js/plugins.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-aead"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=10):
+GET http://www.ucla.edu/js/global.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 26 Jan 2017 18:57:41 GMT
+If-None-Match: W/"588a46a5-1656"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=11):
+GET http://www.ucla.edu/js/responsive.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-e66"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=12):
+GET http://www.ucla.edu/js/search.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 20 Jun 2014 01:16:38 GMT
+If-None-Match: W/"53a38b76-680"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=13):
+GET http://www.ucla.edu/img/background.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-69ed"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=14):
+GET http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892? HTTP/1.1
+Host: 4393665.fls.doubleclick.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A20%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A20%7CA4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A20
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+--------------------
+
+REQUEST (thread_index=15):
+GET http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0 HTTP/1.1
+Host: googleads.g.doubleclick.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=16):
+GET http://ib.adnxs.com/seg?add=2066776&t=1 HTTP/1.1
+Host: ib.adnxs.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: uuid2=2822875186555365757; anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNW[RFLfpEBNSkvO1pUh`R+L_aif!qYd92k72l7*ap/-%bCGD(_Mk@_1DC-l1!bY/<7o$:oCyMAn.dEXlScjxc+(S+*>k[Zwn+-ptWq>i?nI$A0W-07[(JBsLW#6mzFvBv+1Fs?Rf#f8R0Ti3w!NYV^!5Wf/6@3%_; sess=1
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=17):
+GET http://www.ucla.edu/img/logo-print.gif HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-2b3"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=18):
+GET http://www.ucla.edu/img/content-images/optimists-home-bug.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 23 Sep 2016 00:13:36 GMT
+If-None-Match: "57e473b0-5004"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=19):
+GET http://www.ucla.edu/img/content-images/spotlight/1a-galvan.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-2bdab"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=20):
+GET http://www.ucla.edu/img/content-images/spotlight/2-robb.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-5ae94"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=21):
+GET http://www.ucla.edu/img/content-images/spotlight/3-alvarez.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-48419"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=22):
+GET http://www.ucla.edu/img/content-images/spotlight/4-giveto-geo.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-66680"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=23):
+GET http://www.ucla.edu/img/features/20170203-UCLA-TURNER-00345_mid.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 07 Mar 2017 20:12:25 GMT
+If-None-Match: "58bf1429-1f69"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=24):
+GET http://www.ucla.edu/img/features/Gene+networks_mid.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 07 Mar 2017 20:16:07 GMT
+If-None-Match: "58bf1507-3040"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=25):
+GET http://www.ucla.edu/img/features/LA+Mayors+Panel+3_mid.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 17 Feb 2017 23:28:00 GMT
+If-None-Match: "58a78700-1ec4"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=26):
+GET http://www.ucla.edu/img/happenings/2490-scroller.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-2fdc"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=27):
+GET http://www.ucla.edu/img/happenings/2493-scroller.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-403b"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=28):
+GET http://www.ucla.edu/img/happenings/2494-scroller.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-4c8f"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=29):
+GET http://www.ucla.edu/img/content-images/optimists-fa16-banner-920.gif HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 30 Sep 2016 22:39:50 GMT
+If-None-Match: "57eee9b6-6c8e0"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=30):
+GET http://www.ucla.edu/img/audience-nav-bg.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-5d7"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=31):
+GET http://www.ucla.edu/img/audience-nav-opac.png HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/responsive.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-59"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=32):
+GET http://www.ucla.edu/img/header-bg.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-165"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=33):
+GET http://www.ucla.edu/img/sprites.png HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 19 Jan 2017 19:09:51 GMT
+If-None-Match: "58810eff-c214"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=34):
+GET http://www.ucla.edu/img/search-btn.gif HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-24b"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=35):
+GET http://www.ucla.edu/img/callout-nav-give-now-bkgd.png HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/centennial-takeover.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 09 Dec 2014 23:57:51 GMT
+If-None-Match: "54878c7f-33f5"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=36):
+GET http://www.ucla.edu/img/bg-optimists-takeover.png HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/centennial-takeover.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 04 Sep 2015 01:39:56 GMT
+If-None-Match: "55e8f66c-7dc0"
+Cache-Control: max-age=0
+
+
+--------------------
+
+REQUEST (thread_index=37):
+POST http://clients1.google.com/ocsp HTTP/1.1
+Host: clients1.google.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 75
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0I0G0E0C0A0	+
+--------------------
+
+REQUEST (thread_index=38):
+GET http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent HTTP/1.1
+Host: 4393665.fls.doubleclick.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A20%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A20%7CA4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A20
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+--------------------
+
+REQUEST (thread_index=39):
+GET http://www.google.com/ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=2584570660&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D1775213020 HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: NID=98=odphOLW_xRdQh8POhhh3122QYDYo0-mJ-sh29_nrOme71SqIMQ7HEY-Dm4jkyRunhe5fQJyGVan2QFsMKqWhKUUKeThaVjvKG7pErM8NAt8ts1nn82Q6LBpbhPmVTJmI
+Connection: keep-alive
+
+
+--------------------
+
+REQUEST (thread_index=40):
+GET http://a.adroll.com/j/roundtrip.js HTTP/1.1
+Host: a.adroll.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+If-Modified-Since: Tue, 13 Dec 2016 23:39:30 GMT
+If-None-Match: "27d1d50349c5e810b02516f08215696b"
+
+
+--------------------
+
+REQUEST (thread_index=41):
+GET http://connect.facebook.net/en_US/fbevents.js HTTP/1.1
+Host: connect.facebook.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+
+
+--------------------
+
+REQUEST (thread_index=42):
+GET http://s.adroll.com/j/sendrolling.js HTTP/1.1
+Host: s.adroll.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+
+
+--------------------
+
+REQUEST (thread_index=43):
+POST http://ocsp.comodoca.com/ HTTP/1.1
+Host: ocsp.comodoca.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+--------------------
+
+REQUEST (thread_index=44):
+POST http://ocsp.comodoca.com/ HTTP/1.1
+Host: ocsp.comodoca.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+--------------------

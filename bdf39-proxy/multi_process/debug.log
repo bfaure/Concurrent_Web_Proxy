@@ -1,0 +1,2256 @@
+
+
+=============================================================
+====================REQUEST (thread 0)====================
+GET http://www.ucla.edu/ HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:2]===================
+GET / HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:2]======================
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=86400, public, must-revalidate, proxy-revalidate
+Pragma: no-cache
+Content-Encoding: gzip
+Content-Length: 6663
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:02 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+ã
+Ñ§EÙXÇóyÓûÀ&dMÔèh$5F¿»tˇÄ«~a ¨›˛H•w‚Ga˝Â(O∆,*,ø)ºü400∆*V)ÄËPëÖqJÖ&,}3ïNÌSÛp'.,éü.ÁäíPÍqDNX˚åæY§:ıØw{"}*„!ê4¶ÄØu∞⁄gÙŸ¬=++∞Y«kÕÅ√˙V0Ä˘ï}∫õ!1Çîjã¶â‚tvMπ√Ø¯r70ˇŒd◊<Ã¢®ÌDòPõ‚?¸„G¨œJ	t>#o±Y˝Ù›
+>»FÑ+–e¢€y}rq÷Ì}-Q`wM·™Ê:∆(Wéé&¬∆w€™ÿIÒa%@ßPê‡[VÄø-‡öπø¨T[‘’˝˘”°Åûñås`Œjø]W∫∆àä'O%∏Éqt\ã¥;∂úΩØñØW,•ÊWRf
+w^<YêQ%¬™IÚrº…ò√?@¡´áõá6{Ç6Ö˜wˆo^Ã%πXûå¯HËWÛ/ºA>j~JF6˜ÂWËÄa:`¶ÉüŸL*„ò'äâ_ïÜA”d¶º/Ä5Ÿ9®áò]®îπÕÀ¡df eÓøø¨§~YŸ/íî=<∏Aª÷’&«Ô˚˝˜&+ba´Åﬁâ.-Ø[d∂’st*	o.+/îÅ–c5ôIG£≠f]|lÃˆ<≈-}5	kÖË€Ø¶ù˚≤·îY”"]mF¯àd‹⁄çˆﬂ ∑«•	æ{u¢2 ílÌpoƒ√W¶ÒµU@πBƒ˙©9é@GL¢ÆÕ◊zägL]È3©é‘ÛyR&˚ò
+†ﬁU<2°…K=Öµ|®F¿
+˘Ó|®£∫•f;€ºjÖóòÛ_¯$N(6·îE–12˛ñô€™ª<Ñ’˘ü<>?Ø(÷¡Úí∏–w7'x⁄”±ö$∏˚Aqt⁄”ûòÉu£•∆÷Mbÿ∏rÌ±a—ç√'°püß¯<ÃQ∫Y
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 4)====================
+GET http://www.ucla.edu/css/centennial-takeover.css HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 23 Sep 2016 00:11:43 GMT
+If-None-Match: W/"57e4733f-7f4"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /css/centennial-takeover.css HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 23 Sep 2016 00:11:43 GMT
+If-None-Match: W/"57e4733f-7f4"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: text/css
+Last-Modified: Fri, 23 Sep 2016 00:11:43 GMT
+Vary: Accept-Encoding
+ETag: W/"57e4733f-7f4"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 1)====================
+GET http://www.ucla.edu/css/main.css HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 19 Jan 2017 19:09:51 GMT
+If-None-Match: W/"58810eff-c8cc"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /css/main.css HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 19 Jan 2017 19:09:51 GMT
+If-None-Match: W/"58810eff-c8cc"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: text/css
+Last-Modified: Thu, 19 Jan 2017 19:09:51 GMT
+Vary: Accept-Encoding
+ETag: W/"58810eff-c8cc"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 5)====================
+GET http://www.ucla.edu/js/modernizr.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-1fcb"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /js/modernizr.js HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-1fcb"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: application/javascript
+Last-Modified: Thu, 01 May 2014 19:09:20 GMT
+Vary: Accept-Encoding
+ETag: W/"53629be0-1fcb"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 2)====================
+GET http://www.ucla.edu/css/responsive.css HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 26 Jan 2017 18:57:41 GMT
+If-None-Match: W/"588a46a5-4330"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /css/responsive.css HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 26 Jan 2017 18:57:41 GMT
+If-None-Match: W/"588a46a5-4330"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: text/css
+Last-Modified: Thu, 26 Jan 2017 18:57:41 GMT
+Vary: Accept-Encoding
+ETag: W/"588a46a5-4330"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 3)====================
+GET http://www.ucla.edu/css/print.css HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:18 GMT
+If-None-Match: W/"53629bde-1105"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /css/print.css HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:18 GMT
+If-None-Match: W/"53629bde-1105"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: text/css
+Last-Modified: Thu, 01 May 2014 19:09:18 GMT
+Vary: Accept-Encoding
+ETag: W/"53629bde-1105"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 6)====================
+GET http://www.ucla.edu/js/analytics.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 05 Feb 2015 20:44:27 GMT
+If-None-Match: W/"54d3d62b-b14"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /js/analytics.js HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 05 Feb 2015 20:44:27 GMT
+If-None-Match: W/"54d3d62b-b14"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: application/javascript
+Last-Modified: Thu, 05 Feb 2015 20:44:27 GMT
+Vary: Accept-Encoding
+ETag: W/"54d3d62b-b14"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 9)====================
+GET http://www.ucla.edu/js/plugins.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-aead"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /js/plugins.js HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-aead"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: application/javascript
+Last-Modified: Thu, 01 May 2014 19:09:20 GMT
+Vary: Accept-Encoding
+ETag: W/"53629be0-aead"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 12)====================
+GET http://www.ucla.edu/js/search.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 20 Jun 2014 01:16:38 GMT
+If-None-Match: W/"53a38b76-680"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /js/search.js HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 20 Jun 2014 01:16:38 GMT
+If-None-Match: W/"53a38b76-680"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: application/javascript
+Last-Modified: Fri, 20 Jun 2014 01:16:38 GMT
+Vary: Accept-Encoding
+ETag: W/"53a38b76-680"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 11)====================
+GET http://www.ucla.edu/js/responsive.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-e66"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /js/responsive.js HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-e66"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: application/javascript
+Last-Modified: Thu, 01 May 2014 19:09:20 GMT
+Vary: Accept-Encoding
+ETag: W/"53629be0-e66"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 8)====================
+GET http://www.ucla.edu/js/respond.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-fe5"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /js/respond.js HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 01 May 2014 19:09:20 GMT
+If-None-Match: W/"53629be0-fe5"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: application/javascript
+Last-Modified: Thu, 01 May 2014 19:09:20 GMT
+Vary: Accept-Encoding
+ETag: W/"53629be0-fe5"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 10)====================
+GET http://www.ucla.edu/js/global.js HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 26 Jan 2017 18:57:41 GMT
+If-None-Match: W/"588a46a5-1656"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /js/global.js HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 26 Jan 2017 18:57:41 GMT
+If-None-Match: W/"588a46a5-1656"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: application/javascript
+Last-Modified: Thu, 26 Jan 2017 18:57:41 GMT
+Vary: Accept-Encoding
+ETag: W/"588a46a5-1656"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=31536000, public
+Pragma: public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 7)====================
+GET http://a.adtpix.com/px/?id=104885 HTTP/1.1
+Host: a.adtpix.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /px/?id=104885 HTTP/1.1
+Host: a.adtpix.com:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 200 OK
+Content-Type: text/javascript;charset=utf-8
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Server: Apache/2.2.31 (Amazon)
+Status: 200 OK
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 4.0.50
+Content-Length: 834
+Connection: keep-alive
+
+var adtpix = {}; adtpix.google = document.createElement("img"); adtpix.google.height = 1; adtpix.google.width = 1; adtpix.google.style = "border-style: none"; adtpix.google.src = "http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0"; document.body.appendChild(adtpix.google);
+var appnexus = document.createElement("script"); appnexus.src = "//ib.adnxs.com/seg?add=2066776&t=1"; document.body.appendChild(appnexus);
+var dbmAxel = Math.random() + ""; var dbmA = dbmAxel * 10000000000000; var dbm = document.createElement("iframe"); dbm.src = "https://4782524.fls.doubleclick.net/activityi;src=4782524;type=invmedia;cat=naoxni7u;ord=" + dbmA + "?"; dbm.width="1"; dbm.height="1"; dbm.frameborder="0"; dbm.style="display:none"; document.body.appendChild(dbm); 
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 14)====================
+GET http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892? HTTP/1.1
+Host: 4393665.fls.doubleclick.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A20%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A20%7CA4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A20
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892? HTTP/1.1
+Host: 4393665.fls.doubleclick.net:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A20%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A20%7CA4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A20
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 200 OK
+P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Timing-Allow-Origin: *
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Expires: Tue, 14 Mar 2017 03:29:03 GMT
+Cache-Control: private, max-age=0
+Strict-Transport-Security: max-age=21600
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: cafe
+Content-Length: 586
+X-XSS-Protection: 1; mode=block
+
+ã
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 13)====================
+GET http://www.ucla.edu/img/background.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-69ed"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/background.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-69ed"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:3]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Fri, 18 Apr 2014 21:41:53 GMT
+ETag: "53519c21-69ed"
+Expires: Wed, 14 Mar 2018 03:29:03 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:03 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 18)====================
+GET http://www.ucla.edu/img/content-images/optimists-home-bug.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 23 Sep 2016 00:13:36 GMT
+If-None-Match: "57e473b0-5004"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/content-images/optimists-home-bug.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 23 Sep 2016 00:13:36 GMT
+If-None-Match: "57e473b0-5004"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Fri, 23 Sep 2016 00:13:36 GMT
+ETag: "57e473b0-5004"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 20)====================
+GET http://www.ucla.edu/img/content-images/spotlight/2-robb.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-5ae94"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/content-images/spotlight/2-robb.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-5ae94"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Wed, 01 Mar 2017 16:27:37 GMT
+ETag: "58b6f679-5ae94"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 17)====================
+GET http://www.ucla.edu/img/logo-print.gif HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-2b3"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/logo-print.gif HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-2b3"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/gif
+Last-Modified: Fri, 18 Apr 2014 21:41:53 GMT
+ETag: "53519c21-2b3"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 19)====================
+GET http://www.ucla.edu/img/content-images/spotlight/1a-galvan.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-2bdab"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/content-images/spotlight/1a-galvan.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-2bdab"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Wed, 01 Mar 2017 16:27:37 GMT
+ETag: "58b6f679-2bdab"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 22)====================
+GET http://www.ucla.edu/img/content-images/spotlight/4-giveto-geo.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-66680"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/content-images/spotlight/4-giveto-geo.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-66680"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Wed, 01 Mar 2017 16:27:37 GMT
+ETag: "58b6f679-66680"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 21)====================
+GET http://www.ucla.edu/img/content-images/spotlight/3-alvarez.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-48419"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/content-images/spotlight/3-alvarez.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Wed, 01 Mar 2017 16:27:37 GMT
+If-None-Match: "58b6f679-48419"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Wed, 01 Mar 2017 16:27:37 GMT
+ETag: "58b6f679-48419"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 23)====================
+GET http://www.ucla.edu/img/features/20170203-UCLA-TURNER-00345_mid.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 07 Mar 2017 20:12:25 GMT
+If-None-Match: "58bf1429-1f69"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/features/20170203-UCLA-TURNER-00345_mid.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 07 Mar 2017 20:12:25 GMT
+If-None-Match: "58bf1429-1f69"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Tue, 07 Mar 2017 20:12:25 GMT
+ETag: "58bf1429-1f69"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 25)====================
+GET http://www.ucla.edu/img/features/LA+Mayors+Panel+3_mid.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 17 Feb 2017 23:28:00 GMT
+If-None-Match: "58a78700-1ec4"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/features/LA+Mayors+Panel+3_mid.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 17 Feb 2017 23:28:00 GMT
+If-None-Match: "58a78700-1ec4"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Fri, 17 Feb 2017 23:28:00 GMT
+ETag: "58a78700-1ec4"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 24)====================
+GET http://www.ucla.edu/img/features/Gene+networks_mid.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 07 Mar 2017 20:16:07 GMT
+If-None-Match: "58bf1507-3040"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/features/Gene+networks_mid.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 07 Mar 2017 20:16:07 GMT
+If-None-Match: "58bf1507-3040"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Tue, 07 Mar 2017 20:16:07 GMT
+ETag: "58bf1507-3040"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 15)====================
+GET http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0 HTTP/1.1
+Host: googleads.g.doubleclick.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0 HTTP/1.1
+Host: googleads.g.doubleclick.net:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 302 Found
+P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Timing-Allow-Origin: *
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Location: http://www.google.com/ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=2584570660&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D1775213020
+Content-Type: image/gif
+X-Content-Type-Options: nosniff
+Server: cafe
+Content-Length: 42
+X-XSS-Protection: 1; mode=block
+
+GIF89a
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 16)====================
+GET http://ib.adnxs.com/seg?add=2066776&t=1 HTTP/1.1
+Host: ib.adnxs.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: uuid2=2822875186555365757; anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNW[RFLfpEBNSkvO1pUh`R+L_aif!qYd92k72l7*ap/-%bCGD(_Mk@_1DC-l1!bY/<7o$:oCyMAn.dEXlScjxc+(S+*>k[Zwn+-ptWq>i?nI$A0W-07[(JBsLW#6mzFvBv+1Fs?Rf#f8R0Ti3w!NYV^!5Wf/6@3%_; sess=1
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /seg?add=2066776&t=1 HTTP/1.1
+Host: ib.adnxs.com:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: uuid2=2822875186555365757; anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNW[RFLfpEBNSkvO1pUh`R+L_aif!qYd92k72l7*ap/-%bCGD(_Mk@_1DC-l1!bY/<7o$:oCyMAn.dEXlScjxc+(S+*>k[Zwn+-ptWq>i?nI$A0W-07[(JBsLW#6mzFvBv+1Fs?Rf#f8R0Ti3w!NYV^!5Wf/6@3%_; sess=1
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 200 OK
+Server: nginx/1.11.5
+Date: Tue, 14 Mar 2017 03:29:06 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 334
+Connection: keep-alive
+Cache-Control: no-store, no-cache, private
+Pragma: no-cache
+Expires: Sat, 15 Nov 2008 16:00:00 GMT
+P3P: policyref="http://cdn.adnxs.com/w3c/policy/p3p.xml", CP="NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE"
+X-XSS-Protection: 0
+Set-Cookie: anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNUuG5LfpE-vPKDGO=`7r1:Tfi2sswlk6ma$4rf@(/)0aq=!CMb!)gwiddAXY8d3q*rnL(-D)HILPqfGSieA0OsM4Ce%eP)w'MgiQ$lbOptq+J+tCHBR%ohVSsbkC6_t%+:uGz:Ic_020X.dW?O+j:A!x#$g1MrLA; Path=/; Max-Age=7776000; Expires=Mon, 12-Jun-2017 03:29:06 GMT; Domain=.adnxs.com; HttpOnly
+Set-Cookie: sess=1; Path=/; Max-Age=86400; Expires=Wed, 15-Mar-2017 03:29:06 GMT; Domain=.adnxs.com; HttpOnly
+Set-Cookie: uuid2=2822875186555365757; Path=/; Max-Age=7776000; Expires=Mon, 12-Jun-2017 03:29:06 GMT; Domain=.adnxs.com; HttpOnly
+X-Proxy-Origin: 65.19.227.253; 65.19.227.253; 142.bm-nginx-loadbalancer.mgmt.lax1; *.adnxs.com; 104.254.150.169:80
+
+document.write('<iframe src="http://acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" style="position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0;"></iframe>');
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 29)====================
+GET http://www.ucla.edu/img/content-images/optimists-fa16-banner-920.gif HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 30 Sep 2016 22:39:50 GMT
+If-None-Match: "57eee9b6-6c8e0"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/content-images/optimists-fa16-banner-920.gif HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 30 Sep 2016 22:39:50 GMT
+If-None-Match: "57eee9b6-6c8e0"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/gif
+Last-Modified: Fri, 30 Sep 2016 22:39:50 GMT
+ETag: "57eee9b6-6c8e0"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 30)====================
+GET http://www.ucla.edu/img/audience-nav-bg.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-5d7"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/audience-nav-bg.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-5d7"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Fri, 18 Apr 2014 21:41:53 GMT
+ETag: "53519c21-5d7"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 31)====================
+GET http://www.ucla.edu/img/audience-nav-opac.png HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/responsive.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-59"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /img/audience-nav-opac.png HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/responsive.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-59"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/png
+Last-Modified: Fri, 18 Apr 2014 21:41:53 GMT
+ETag: "53519c21-59"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 32)====================
+GET http://www.ucla.edu/img/header-bg.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-165"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /img/header-bg.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-165"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/jpeg
+Last-Modified: Fri, 18 Apr 2014 21:41:53 GMT
+ETag: "53519c21-165"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 33)====================
+GET http://www.ucla.edu/img/sprites.png HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 19 Jan 2017 19:09:51 GMT
+If-None-Match: "58810eff-c214"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /img/sprites.png HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Thu, 19 Jan 2017 19:09:51 GMT
+If-None-Match: "58810eff-c214"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/png
+Last-Modified: Thu, 19 Jan 2017 19:09:51 GMT
+ETag: "58810eff-c214"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 38)====================
+GET http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent HTTP/1.1
+Host: 4393665.fls.doubleclick.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A20%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A20%7CA4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A20
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent HTTP/1.1
+Host: 4393665.fls.doubleclick.net:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A20%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A20%7CA4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A20
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 200 OK
+P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Timing-Allow-Origin: *
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Expires: Tue, 14 Mar 2017 03:29:04 GMT
+Cache-Control: private, max-age=0
+Strict-Transport-Security: max-age=21600
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: cafe
+Content-Length: 586
+X-XSS-Protection: 1; mode=block
+
+ã
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 34)====================
+GET http://www.ucla.edu/img/search-btn.gif HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-24b"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /img/search-btn.gif HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/main.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 18 Apr 2014 21:41:53 GMT
+If-None-Match: "53519c21-24b"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/gif
+Last-Modified: Fri, 18 Apr 2014 21:41:53 GMT
+ETag: "53519c21-24b"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 35)====================
+GET http://www.ucla.edu/img/callout-nav-give-now-bkgd.png HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/centennial-takeover.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 09 Dec 2014 23:57:51 GMT
+If-None-Match: "54878c7f-33f5"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /img/callout-nav-give-now-bkgd.png HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/centennial-takeover.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 09 Dec 2014 23:57:51 GMT
+If-None-Match: "54878c7f-33f5"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/png
+Last-Modified: Tue, 09 Dec 2014 23:57:51 GMT
+ETag: "54878c7f-33f5"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 36)====================
+GET http://www.ucla.edu/img/bg-optimists-takeover.png HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/centennial-takeover.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 04 Sep 2015 01:39:56 GMT
+If-None-Match: "55e8f66c-7dc0"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /img/bg-optimists-takeover.png HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/css/centennial-takeover.css
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Fri, 04 Sep 2015 01:39:56 GMT
+If-None-Match: "55e8f66c-7dc0"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: image/png
+Last-Modified: Fri, 04 Sep 2015 01:39:56 GMT
+ETag: "55e8f66c-7dc0"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 37)====================
+POST http://clients1.google.com/ocsp HTTP/1.1
+Host: clients1.google.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 75
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0I0G0E0C0A0	+
+==================SENT REQUEST [21:29:4]===================
+POST /ocsp HTTP/1.1
+Host: clients1.google.com:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 75
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0I0G0E0C0A0	+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 200 OK
+Content-Type: application/ocsp-response
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Expires: Sat, 18 Mar 2017 03:29:04 GMT
+Cache-Control: public, max-age=345600
+Server: ocsp_responder
+Content-Length: 463
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+
+0ÇÀ
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 26)====================
+GET http://www.ucla.edu/img/happenings/2490-scroller.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-2fdc"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/happenings/2490-scroller.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-2fdc"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 200 OK
+Content-Type: image/jpeg
+Last-Modified: Tue, 14 Mar 2017 03:29:02 GMT
+ETag: "58c7637e-2fdc"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Content-Length: 12252
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+ˇÿˇ·
+
+(
+°E_∂ºsÓF∆vE«º•ËéÁ∂˝8êÒk’íµ7€I^πQ“Îwı|+Õ2ì∑q∫h…n£+üp‹≤¨B¨{yÒ·]èioˆÍ§´kCYe.æÍR‚§p-°‘<≈∏©Óâk±îc—ìﬁÕ√ÊQèfnO%êîô.)∂!!E(6∫âWƒ⁄©3/B2J	ÿx
+Kîåf¯z.-‰“ê„#Kà**QY7∏ÿ}ïÛ	9∂âπ
+6„°î˝7mwœs`ƒuæ¨{ﬂôd..íP†√ô©⁄ÔµgMﬁáŒ«o›∫Î≤’üË#iÈ≈Af“ÄÑ•:l8W/a–ÏÆ√ñ›‚qn-. -
+ïYuó%¶åÛ@í‰º‹dJ2ê_Zà‚çC]Ì¿zI„[¯qç°Œ≤Tu.ˇ
+=eqI6Ò˛ •íì§ï|éí9>)Ì±˙^Ô€^ãbQ/$‚Tî¿ì¬«¿VÎò3…íQï#Ê@±ï¬Oö´d#ë›	FBLâXÒ1πI$ 
+†å»cÙÜòÆêm˝5Wïí§ìã’-o≈ı+æÁﬂyvßn≈i-≤≠(v◊‘êxù\c`BÏÍÎAzËÃÙlºiãèÌ„©≈8’ﬁW˜E≈ÌnU]sP≠_Se˚∞∫æ(˚πéc)”LòJ`ê∞—:u|≈gc›åó”»ãU¢6ŒÀbd¬›ŸÃ2&S
+ƒªh◊%)AuRáùÍÚ}πÊYíÇJq\ø"√.8wbÁ¥ü¯íÈ¬Lƒº©xÚµ0≥©)Bî§û>íû_#\µªŒíGMvÀﬁ/B;r~Zb√L¬Vµ~#äpç∏~⁄∞Y–KDGçôœvXﬁ–vr~f[yº±l2«≠ÃÑ√¢;) AÁaÂ˜‘Ÿ2∏Ëø]bb(}R.C3±∏» ƒÌD∏Ó§ÑÕœ©6uÒ˚å–{üï˛°ÿ˝ΩˆmÃ©+Ÿ	∆›jóYÇ9Œ˝˜|1bÏ„µ)¯Ù_‚ÕKr…F;ë»ÃPSËl186OU~ñ“>\Î÷/ ﬁ;qTåVûáóZS øı:∂Í UîŸÿ¨éLNïçnCÕkO_JJ«˚kÃÆ/rMÀ´‘Ì‚∏Æ+e°˜¥˘âÏ01S)÷¿tDZ√n
+hI∑Q’Ò (Úò„zÌ∞q‘‡ß%πZ◊RoáÄƒ‚ôc!1	ì`”M
+Wß_˝Zı|ø“ºëÁÿﬂÚ?6JSÙˇ
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 27)====================
+GET http://www.ucla.edu/img/happenings/2493-scroller.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-403b"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/happenings/2493-scroller.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-403b"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 200 OK
+Content-Type: image/jpeg
+Last-Modified: Tue, 14 Mar 2017 03:29:02 GMT
+ETag: "58c7637e-403b"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Content-Length: 16443
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+ˇÿˇ·
+		
+
+					ˇ¿
+Ò.PL<Æó›™?FÔ›Õ¯≈c„·m ñ¬Áme‹€Q\ÒÙss—S|Â<ÔÙÍE-GË›˚πﬂ§ÃB⁄H“<~”@:àÚ”çÕ˛È¡ ÙæyGü˛ùO∫‘~çﬂªùÒ _.ÕÈ%NMŸ‰é+YOñ<ÂÕ—Œ¢˘Â˙dïÛn˝‹ÔèV∆œ«mﬂ“”õYNh*÷ ºπ‘°Ë¥W
+©•Û∫_È¬©¶ö0Àx˛Æw∆π\P∂∆	¯»qëÑQZ T§¢≠#ë$∂tõ¡∆óŒ^óïLôò⁄y≥~$˜◊—ÌüÉ[±€¬ÇNï∂ù©©zá0Oqq∆öBqÔˇ
+ÁÛµè√)|4◊tÜ∂æU]“´{ì,lmo˛z?´Ö4tü™˛S÷M%_.?Y|2ô„≥∫Lµ≤¬‚Œrf«;_ˆˇ
+Ó1óﬁâíó%¡©∆RCzTx65π¨uåÈoê‡‚h$b6⁄ºÔc{´kiı§á…kú…”%Àqs
+
+”Dßá:–
+Ûqo.’À‰û™2!∆qÁ$ y••
+∞ã[å≈I~!|˝¬Á<¢‹q[¡·`Õû‚`Aeçªäa¿\ +N`Àh•7Pq‹HUÆEM%l™÷ﬁcan1$6ª–ŸXªOŸÍ˛Œ‘h*&ﬁu–ËÀôZ‡#4ΩÛ¥w¨ç◊5—≠P˜ym®sr{”=">tñ◊oL)∏Sã–å∆sÍ/tÒm%]§jﬂ|…mÒãvâñ7¶±˝/%&\¯ﬂñŸÜÜ’∫ÍYí∆„Ôe«◊§
+IH·Zñ„√ü|⁄vÕ´¥–
+ˇ
+Eú}¡?—u›¿ﬁÈ∏Jé}Œ=>9€tI√Æå˛Íõ"Jrr£©”ï…6B¿ΩáÚEw∏Ù–ﬁ~jé*Ü—∆—'˘…œ7w
+wÓzSYíå√iáºIñ≈JRC™Ö
+Y(âDJ"QàîD¢%(âDJ"QàîD¢%(âDJ"QàîD¢-`¯∆∑ˇ
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 28)====================
+GET http://www.ucla.edu/img/happenings/2494-scroller.jpg HTTP/1.1
+Host: www.ucla.edu
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-4c8f"
+Cache-Control: max-age=0
+
+
+==================SENT REQUEST [21:29:3]===================
+GET /img/happenings/2494-scroller.jpg HTTP/1.1
+Host: www.ucla.edu:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Mar 2017 03:12:01 GMT
+If-None-Match: "58c75f81-4c8f"
+Cache-Control: max-age=0
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 200 OK
+Content-Type: image/jpeg
+Last-Modified: Tue, 14 Mar 2017 03:29:02 GMT
+ETag: "58c7637e-4c8f"
+Expires: Wed, 14 Mar 2018 03:29:04 GMT
+Cache-Control: max-age=31536000, max-age=86400, public, must-revalidate, proxy-revalidate
+Content-Length: 19599
+Accept-Ranges: bytes
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+
+ˇÿˇ·
+
+çA¿v˙Ù
+Z∏2ëJ∑Ê*ŒÑ”
+éÿﬂ˜É¢=ëˆ≠≥.≠e∆°BÜóc¬A@÷î=-uq	ÃÑS«
+˙i4∆Ô`∞ÊKR£ß0M(Nå,\7√
+yn[xı-y¡eT“I†(Ò¿"ÀVÁqJmnZ‰™ñÇuS"Fö£®ÎÄX€LÔÇ˚—lÒÏ™vïtæ‚Ø±!«JE}ÿmo9oñ≠—ªm6Y1]˛hÕı	°B™∂VîßI'
+à
+U=√
+êr∂Œ…€pØ€bNﬁâ∫/w2AñπÖ∏ˆ˘Ñ)§∫∑¡*}T ˘AZ¥” ´èæn1∏˜üq3p€AΩ∫ƒˆe&+·π3¬è•S®´KNí°≥B@‘†0ª∏˘◊u›Ô≥Ó6õb Aê‚Ñ6ù*Ó©DÖæS’JØáL≤N˛ºÔko˛†yV;ŸyÊ8“¿·RíÛë‹-øqî⁄çî):
+ºòHM
+õpT£”PÀﬂÄê6›¿àl≥g¥>dLêø„%$‰∑@§†P)ùz`"/ﬂ∑Æ∞Ï®Œ©«∑+ÏÏ¨(T91–Äi÷∫A5¿Ûˇ
+ºe`ÙΩ‰˛ﬂco_yíR˜—X‘ë‹E-—[y€k∂¢ÍP~^Êö˘p´qzRi¥£[âJJ…Ru
+Ç≤:(~8*~Ì‹Cí∑û—∏‹ÿ€\e∞m0Ó7˘“¶Æ7√=
+SVÊü©ÙÏï ˜ñﬂú§i5'
+∂ÿ55ö´ùB$Óé@¨*•HJı∫HË
+è·Ä*¥øpî[zÂzÌ∫˙ã§≈≠∫W»Q\≤»`$f’∫¶9ìû∑Y∂«\ôé¨ÂFõ.z©ñÕ&‰TKÂ“Ì~y$π|ù.‡öú«´ê„‡ü
+∞úMºò∫ª˜S(qŸQôykeFm:
+3œRSôÒ¿/ÌK±∏∆PK°–ÄóqFûC–eÄ>àQôJîhOQûXö·%‘ÓÊDQ-ã£çæÃ¢©EQ¿=ª]«†»∞Jó!Ÿm›b∫TÛ«V£‹RTíOP9{â´¥X˚a≈1söî$üÙ•@+ƒ$$å∆ÓF<Ì≈ˆµÕ≠*KèI∂Yët≤Q‹ÏKak®M*÷∫ñœ5ÒlIm§∞ŸÓ†)jE2ÌÂß!Ò¿	—:RRU_è-p2Õ5ó¨˚P•%R;Ö∏≠&´NtM
+í‡u Ì¿r˙‰≥ˆ€ŒrPÔ£LÕõ80Û™nö )Z}äÁV›1(ª≤R;.€äX≠@^ò7{u–ÿ“AYqD‘+ÃiA·ñ⁄àôÆl˝¨ªtüC=Seô*•3•O∑
+¨—ÈÙ‘WøÿÛˆˇ
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 39)====================
+GET http://www.google.com/ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=2584570660&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D1775213020 HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: NID=98=odphOLW_xRdQh8POhhh3122QYDYo0-mJ-sh29_nrOme71SqIMQ7HEY-Dm4jkyRunhe5fQJyGVan2QFsMKqWhKUUKeThaVjvKG7pErM8NAt8ts1nn82Q6LBpbhPmVTJmI
+Connection: keep-alive
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=2584570660&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D1775213020 HTTP/1.1
+Host: www.google.com:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.ucla.edu/
+Cookie: NID=98=odphOLW_xRdQh8POhhh3122QYDYo0-mJ-sh29_nrOme71SqIMQ7HEY-Dm4jkyRunhe5fQJyGVan2QFsMKqWhKUUKeThaVjvKG7pErM8NAt8ts1nn82Q6LBpbhPmVTJmI
+Connection: keep-alive
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+X-Content-Type-Options: nosniff
+Server: adclick_server
+Content-Length: 42
+X-XSS-Protection: 1; mode=block
+
+GIF89a
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 40)====================
+GET http://a.adroll.com/j/roundtrip.js HTTP/1.1
+Host: a.adroll.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+If-Modified-Since: Tue, 13 Dec 2016 23:39:30 GMT
+If-None-Match: "27d1d50349c5e810b02516f08215696b"
+
+
+==================SENT REQUEST [21:29:4]===================
+GET /j/roundtrip.js HTTP/1.1
+Host: a.adroll.com:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+If-Modified-Since: Tue, 13 Dec 2016 23:39:30 GMT
+If-None-Match: "27d1d50349c5e810b02516f08215696b"
+
+
+===================RESPONSE [21:29:4]======================
+HTTP/1.1 304 Not Modified
+Content-Type: text/javascript
+Last-Modified: Tue, 13 Dec 2016 23:39:30 GMT
+ETag: "27d1d50349c5e810b02516f08215696b"
+Cache-Control: max-age=300, must-revalidate
+Date: Tue, 14 Mar 2017 03:29:04 GMT
+Connection: keep-alive
+
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 41)====================
+GET http://connect.facebook.net/en_US/fbevents.js HTTP/1.1
+Host: connect.facebook.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+
+
+==================SENT REQUEST [21:29:5]===================
+GET /en_US/fbevents.js HTTP/1.1
+Host: connect.facebook.net:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+
+
+===================RESPONSE [21:29:5]======================
+HTTP/1.1 200 OK
+Access-Control-Expose-Headers: X-FB-Content-MD5
+x-fb-content-md5: c20625e759a1b89cc444b4599f31a80f
+ETag: "455a2fa52f519a544312e5add6b48c57"
+Content-Type: application/x-javascript; charset=utf-8
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=15552000; preload
+X-XSS-Protection: 0
+X-Frame-Options: DENY
+timing-allow-origin: *
+content-security-policy: default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self' *.m-freeway.com;style-src data: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' *.m-freeway.com chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;
+Cache-Control: public,max-age=1200,stale-while-revalidate=3600
+Expires: Tue, 14 Mar 2017 03:47:57 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-MD5: MSMSIRNMHwwhu50VHVCH9A==
+X-FB-Debug: WT79WbVZz/Kf6uP0SlCqM89+MUz1v/CkKrDtF8uWbtcaAM378EXaw8NWnp2Y+J5qIdWJLhXVDP+pP8NZ8BcTgQ==
+Date: Tue, 14
+ Mar 2017 03:29:05 GMT
+Connection: keep-alive
+Content-Length: 4079
+
+ã
+Û!OˇDúÁq˜¸Bûüòﬂ_~ÈoÔ˛‚W.ÆQñK≥r˘œ^˛ågØ>·˙’Rº˙WÆ/ÕÛÀupHˇà|˛~ä+‚Ÿ5∆≥’“J+å`¡®T‚Æí•à]VbMÌ÷ À]ê5F√USé´5≈øGy¶E¶ÒıR@çÒ◊ª8æ è†‘ÌÀRç—™p·8ìZÇGcMÚ™:á%Ôqñ‰∏r^ï—îêu’e4SÄØÈâÄ¡0'¶Bã1íJóÃ¨WJÁS„≈O`X	ª±#„zça}#+”√¯NÿÆO6A[pwÃ©‰Ù∂)‹¶BC–çlæG∫ß0Ëzf•Ä¶äIéY°2æâ˘ÿæœ≠s*Só
+ﬁ≠Kk…ƒÁöP–ı÷e]Ÿ4º¯:?…Á¢<%\èﬁbJ~ÉÒwÔñ{µo€: ∞‚íÎLU˙∞àùè”Ñ–í∑1Ük⁄pfØ‡y∂Zç '|ãì’ñÙ∂&"_Ú ÅR8Jd±ÃF8YûΩT≤ ÿ1ËúØYêØƒwÆ∆¬!Rî"e)bgKGÁÅWéTN•õ.!öX€ÒùKaN>’M°ú-≥Q,f"ECP¶/*∞íP˚UÒ_JD/#Éq$yÈLÛR82KÚrjlë<Rje¬Ÿ-˜€k[ê¶&?NL°◊I¬i⁄T»SŒ&|òZNπø±o∆Zxøø◊úÎXüA‘Ω7ß'¥(ùf„È°Œ¶R≠°tVÒ=´˜ûMÁSÓ£ô"∑{ocÁàœ&BÚ$˘Û'© Ã`yöÍz€
+∑	nôaÌßµ÷;⁄0&®ÊRGc!"P¬Y@`/ÄÕ¡◊Biw¬çå)Ô˜OMö¬ï7ﬁSFª%àl…ƒ∞√⁄ñd€+¨TµP)3KÍï{N∏ØÛÎ¢h<˙Ü1v∏—CY	‘É—Ë#˘k≥·FÚmkÏt	∆µ∂Õƒ#ùÈ€ÕcÃ=ˇqrª%œ®éãèQÿE+R‡¡
+v±ƒ‘![†XÃ<WàÿI?·w&†®∆ƒä∂˛qâ≠¸±¢0íkGfJCöäÿâÚ≤ëNóNnï‚0ƒ3Uãf∂ﬂdÖ≥Z˝]∫†3˘„R$tŒLqHıﬂ%√ÿ\Ï1Ùg$
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 42)====================
+GET http://s.adroll.com/j/sendrolling.js HTTP/1.1
+Host: s.adroll.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+
+
+==================SENT REQUEST [21:29:5]===================
+GET /j/sendrolling.js HTTP/1.1
+Host: s.adroll.com:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=7595878105361.892??wmode=transparent
+Connection: keep-alive
+
+
+===================RESPONSE [21:29:5]======================
+HTTP/1.1 200 OK
+x-amz-id-2: CAWrqj1mpxylRMzFEmQYMKWcGQ7hizfTvSc2RahPXjheKkhg7YOvA1oPUJPQ6nva0ZrNJTT43yM=
+x-amz-request-id: F5596D1CFB33E52F
+Last-Modified: Thu, 09 Mar 2017 02:01:34 GMT
+ETag: "dc33501e63068fdcec9da49b539debbe"
+Cache-Control: no-cache, no-store, must-revalidate
+x-amz-version-id: wQO1HEFuIkM77ti5F6KPPPEQ5_gbp2io
+Accept-Ranges: bytes
+Content-Type: text/javascript
+Server: AmazonS3
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Tue, 14 Mar 2017 03:29:05 GMT
+Content-Length: 2012
+Connection: keep-alive
+Access-Control-Max-Age: 600
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+
+ã
+92åˇˆ≤ˆ›q™ÿ:µ¥?PØlc9ñ5Ü*BJõC)z¢éO∞∫‘‹…G<Î8‹m0PnHü]+%%≠RùHâ)˛’aï˝mı¶BﬂIö:…iq;~9ÂÅ%4z.ç]ÅÅ»6Ê	”¶πÙè˙EuÂ›∫Y“=·äß´_•ì¿∏9eqq)‰}Cçe`ƒP∫ÕPfÄ≤†µ„ü`ΩSU¸îmkÜ/X´^˘I¡ds√ª4∫¢#ºˇÇÌ»ˇöÌ’≈øÄ‚Ú‚ìäFµıJ´><‘ã:™^}CwÚ≥†ˆ⁄QÂˇ=éÔ89‹!Á÷¬E H<ïÒ˚±^‚Rßn"∏ïıÀB9ﬁYû§.}
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 43)====================
+POST http://ocsp.comodoca.com/ HTTP/1.1
+Host: ocsp.comodoca.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+==================SENT REQUEST [21:29:6]===================
+POST / HTTP/1.1
+Host: ocsp.comodoca.com:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+===================RESPONSE [21:29:6]======================
+HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2017 03:29:06 GMT
+Server: Apache
+Last-Modified: Sat, 11 Mar 2017 11:21:28 GMT
+Expires: Sat, 18 Mar 2017 11:21:28 GMT
+ETag: 14F0A27CFFF7D020010FA62B1347682B14A84E09
+Cache-Control: max-age=373341,public,no-transform,must-revalidate
+X-OCSP-Reponder-ID: fsedcaocsp2
+Content-Length: 471
+Connection: close
+Content-Type: application/ocsp-response
+
+0Ç”
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 44)====================
+POST http://ocsp.comodoca.com/ HTTP/1.1
+Host: ocsp.comodoca.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+==================SENT REQUEST [21:29:6]===================
+POST / HTTP/1.1
+Host: ocsp.comodoca.com:80
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+===================RESPONSE [21:29:6]======================
+HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2017 03:29:06 GMT
+Server: Apache
+Last-Modified: Sat, 11 Mar 2017 11:21:28 GMT
+Expires: Sat, 18 Mar 2017 11:21:28 GMT
+ETag: 14F0A27CFFF7D020010FA62B1347682B14A84E09
+Cache-Control: max-age=373341,public,no-transform,must-revalidate
+X-OCSP-Reponder-ID: fsedcaocsp1
+Content-Length: 471
+Connection: close
+Content-Type: application/ocsp-response
+
+0Ç”
+
+
+=============================================================
