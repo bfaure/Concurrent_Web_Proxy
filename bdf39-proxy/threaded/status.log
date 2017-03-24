@@ -1,166 +1,110 @@
-21:17:57 -  
-21:18:1 - 
-21:18:1 - (id=0) - Reading socket 9
-21:18:1 - (id=0) - Request size = 423
-21:18:1 - (id=0) - Parsing request
-21:18:1 - (id=0) - No request size specified
-21:18:1 - (id=0) - No request port specified
-21:18:1 - (id=0) - Finished parsing request
-21:18:1 - (id=0) - Connecting to remote socket
-21:18:1 - (id=0) - Forwarding request
-21:18:1 - (id=0) - Waiting for response
-21:18:1 - (id=0) - Got first response
-21:18:1 - (id=0) - Found response size (6663)
-21:18:1 - (id=0) - Reached end of message (size=6663)
-21:18:1 - (id=0) - Forwarding response to client
-21:18:1 - (id=0) - Finished forwarding response
-21:18:1 - 
-21:18:1 - (id=1) - Reading socket 9
-21:18:1 - (id=1) - Request size = 299
-21:18:1 - (id=1) - Parsing request
-21:18:1 - (id=1) - No request size specified
-21:18:1 - (id=1) - No request port specified
-21:18:1 - (id=1) - Finished parsing request
-21:18:1 - (id=1) - Connecting to remote socket
-21:18:1 - 
-21:18:1 - (id=2) - Reading socket 13
-21:18:1 - (id=2) - Request size = 747
-21:18:1 - (id=2) - Parsing request
-21:18:1 - (id=2) - No request size specified
-21:18:1 - (id=2) - No request port specified
-21:18:1 - (id=2) - Finished parsing request
-21:18:1 - (id=2) - Connecting to remote socket
-21:18:1 - (id=1) - Forwarding request
-21:18:1 - (id=1) - Waiting for response
-21:18:1 - (id=2) - Forwarding request
-21:18:1 - (id=2) - Waiting for response
-21:18:1 - (id=2) - Got first response
-21:18:1 - (id=2) - Found response size (586)
-21:18:1 - (id=2) - Reached end of message (size=586)
-21:18:1 - (id=2) - Forwarding response to client
-21:18:1 - (id=2) - Finished forwarding response
-21:18:1 - (id=1) - Got first response
-21:18:1 - (id=1) - Found response size (834)
-21:18:1 - (id=1) - Reached end of message (size=834)
-21:18:1 - (id=1) - Forwarding response to client
-21:18:1 - (id=1) - Finished forwarding response
-21:18:1 - 
-21:18:1 - (id=3) - Reading socket 9
-21:18:1 - (id=3) - Request size = 554
-21:18:1 - (id=3) - Parsing request
-21:18:1 - (id=3) - No request size specified
-21:18:1 - (id=3) - No request port specified
-21:18:1 - (id=3) - Finished parsing request
-21:18:1 - (id=3) - Connecting to remote socket
-21:18:1 - 
-21:18:1 - (id=4) - Reading socket 10
-21:18:1 - (id=4) - Request size = 544
-21:18:1 - (id=4) - Parsing request
-21:18:1 - (id=4) - No request size specified
-21:18:1 - (id=4) - No request port specified
-21:18:1 - (id=4) - Finished parsing request
-21:18:1 - (id=4) - Connecting to remote socket
-21:18:1 - 
-21:18:1 - (id=5) - Reading socket 13
-21:18:1 - (id=5) - Request size = 765
-21:18:1 - (id=5) - Parsing request
-21:18:1 - (id=5) - No request size specified
-21:18:1 - (id=5) - No request port specified
-21:18:1 - (id=5) - Finished parsing request
-21:18:1 - (id=5) - Connecting to remote socket
-21:18:2 - (id=3) - Forwarding request
-21:18:2 - (id=3) - Waiting for response
-21:18:2 - (id=4) - Forwarding request
-21:18:2 - (id=4) - Waiting for response
-21:18:2 - (id=3) - Got first response
-21:18:2 - (id=3) - Found response size (42)
-21:18:2 - (id=3) - Reached end of message (size=42)
-21:18:2 - (id=3) - Forwarding response to client
-21:18:2 - (id=3) - Finished forwarding response
-21:18:2 - 
-21:18:2 - (id=6) - Reading socket 9
-21:18:2 - (id=6) - Request size = 622
-21:18:2 - (id=6) - Parsing request
-21:18:2 - (id=6) - No request size specified
-21:18:2 - (id=6) - No request port specified
-21:18:2 - (id=6) - Finished parsing request
-21:18:2 - (id=6) - Connecting to remote socket
-21:18:2 - (id=5) - Forwarding request
-21:18:2 - (id=5) - Waiting for response
-21:18:2 - (id=6) - Forwarding request
-21:18:2 - (id=6) - Waiting for response
-21:18:2 - (id=4) - Got first response
-21:18:2 - (id=4) - Found response size (334)
-21:18:2 - (id=4) - Reached end of message (size=334)
-21:18:2 - (id=4) - Forwarding response to client
-21:18:2 - (id=4) - Finished forwarding response
-21:18:2 - (id=5) - Got first response
-21:18:2 - (id=5) - Found response size (586)
-21:18:2 - (id=5) - Reached end of message (size=586)
-21:18:2 - (id=5) - Forwarding response to client
-21:18:2 - (id=5) - Finished forwarding response
-21:18:2 - (id=6) - Got first response
-21:18:2 - (id=6) - Found response size (42)
-21:18:2 - (id=6) - Reached end of message (size=42)
-21:18:2 - (id=6) - Forwarding response to client
-21:18:2 - (id=6) - Finished forwarding response
-21:18:2 - 
-21:18:2 - (id=7) - Reading socket 9
-21:18:2 - (id=7) - Request size = 501
-21:18:2 - (id=7) - Parsing request
-21:18:2 - (id=7) - No request size specified
-21:18:2 - (id=7) - No request port specified
-21:18:2 - (id=7) - Finished parsing request
-21:18:2 - (id=7) - Connecting to remote socket
-21:18:2 - (id=7) - Forwarding request
-21:18:2 - (id=7) - Waiting for response
-21:18:3 - (id=7) - Got first response
-21:18:3 - (id=7) - Reached end of message (no size)
-21:18:3 - (id=7) - Forwarding response to client
-21:18:3 - (id=7) - Finished forwarding response
-21:18:3 - 
-21:18:3 - (id=8) - Reading socket 9
-21:18:3 - (id=8) - Request size = 419
-21:18:3 - (id=8) - Parsing request
-21:18:3 - (id=8) - No request size specified
-21:18:3 - (id=8) - No request port specified
-21:18:3 - (id=8) - Finished parsing request
-21:18:3 - (id=8) - Connecting to remote socket
-21:18:3 - 
-21:18:3 - (id=9) - Reading socket 13
-21:18:3 - (id=9) - Request size = 402
-21:18:3 - (id=9) - Parsing request
-21:18:3 - (id=9) - No request size specified
-21:18:3 - (id=9) - No request port specified
-21:18:3 - (id=9) - Finished parsing request
-21:18:3 - (id=9) - Connecting to remote socket
-21:18:3 - (id=8) - Forwarding request
-21:18:3 - (id=8) - Waiting for response
-21:18:3 - (id=9) - Forwarding request
-21:18:3 - (id=9) - Waiting for response
-21:18:4 - (id=8) - Got first response
-21:18:4 - (id=8) - Reached end of message (no size)
-21:18:4 - (id=8) - Forwarding response to client
-21:18:4 - (id=8) - Finished forwarding response
-21:18:4 - 
-21:18:4 - (id=10) - Reading socket 9
-21:18:4 - (id=10) - Request size = 469
-21:18:4 - (id=10) - Parsing request
-21:18:4 - (id=10) - Specified request size = 83
-21:18:4 - (id=10) - No request port specified
-21:18:4 - (id=10) - Finished parsing request
-21:18:4 - (id=10) - Connecting to remote socket
-21:18:5 - (id=9) - Got first response
-21:18:5 - (id=9) - Found response size (2012)
-21:18:5 - (id=9) - Reached end of message (size=2012)
-21:18:5 - (id=9) - Forwarding response to client
-21:18:5 - (id=9) - Finished forwarding response
-21:18:5 - (id=10) - Forwarding request
-21:18:5 - (id=10) - Waiting for response
-21:18:5 - (id=10) - Got first response
-21:18:5 - (id=10) - Found response size (471)
-21:18:5 - (id=10) - Reached end of message (size=471)
-21:18:5 - (id=10) - Forwarding response to client
-21:18:5 - (id=10) - Finished forwarding response
-21:23:34 - USER
-21:23:34 - USER
+15:38:38 -  
+15:38:46 - 
+15:38:46 - (id=3) - Reading socket 9
+15:38:46 - (id=3) - Request size = 450
+15:38:46 - (id=3) - Parsing request
+15:38:46 - (id=3) - Specified request size = 83
+15:38:46 - (id=3) - No request port specified
+15:38:46 - (id=3) - Finished parsing request
+15:38:46 - (id=3) - Connecting to remote socket
+15:38:46 - 
+15:38:46 - (id=4) - Reading socket 11
+15:38:46 - (id=4) - Request size = 460
+15:38:46 - (id=4) - Parsing request
+15:38:46 - (id=4) - Specified request size = 83
+15:38:46 - (id=4) - No request port specified
+15:38:46 - (id=4) - Finished parsing request
+15:38:46 - (id=4) - Connecting to remote socket
+15:38:46 - 
+15:38:46 - (id=5) - Reading socket 13
+15:38:46 - (id=5) - Request size = 460
+15:38:46 - (id=5) - Parsing request
+15:38:46 - (id=5) - Specified request size = 83
+15:38:46 - (id=5) - No request port specified
+15:38:46 - (id=5) - Finished parsing request
+15:38:46 - (id=5) - Connecting to remote socket
+15:38:46 - (id=4) - Forwarding request
+15:38:46 - (id=4) - Waiting for response
+15:38:46 - (id=5) - Forwarding request
+15:38:46 - (id=5) - Waiting for response
+15:38:46 - (id=4) - Got first response
+15:38:46 - (id=4) - Found response size (471)
+15:38:46 - (id=4) - Reached end of message (size=471)
+15:38:46 - (id=4) - Forwarding response to client
+15:38:46 - (id=4) - Finished forwarding response
+15:38:46 - (id=5) - Got first response
+15:38:46 - (id=5) - Found response size (471)
+15:38:46 - (id=5) - Reached end of message (size=471)
+15:38:46 - (id=5) - Forwarding response to client
+15:38:46 - (id=5) - Finished forwarding response
+15:38:46 - 
+15:38:46 - (id=6) - Reading socket 11
+15:38:46 - (id=6) - Request size = 460
+15:38:46 - (id=6) - Parsing request
+15:38:46 - (id=6) - Specified request size = 83
+15:38:46 - (id=6) - No request port specified
+15:38:46 - (id=6) - Finished parsing request
+15:38:46 - (id=6) - Connecting to remote socket
+15:38:46 - 
+15:38:46 - (id=7) - Reading socket 13
+15:38:46 - (id=7) - Request size = 460
+15:38:46 - (id=7) - Parsing request
+15:38:46 - (id=7) - Specified request size = 83
+15:38:46 - (id=7) - No request port specified
+15:38:46 - (id=7) - Finished parsing request
+15:38:46 - (id=7) - Connecting to remote socket
+15:38:46 - (id=6) - Forwarding request
+15:38:46 - (id=6) - Waiting for response
+15:38:46 - (id=7) - Forwarding request
+15:38:46 - (id=7) - Waiting for response
+15:38:46 - 
+15:38:46 - (id=9) - Reading socket 15
+15:38:46 - 
+15:38:46 - (id=9) - Reading socket 16
+15:38:46 - (id=9) - Request size = 451
+15:38:46 - (id=9) - Parsing request
+15:38:46 - (id=9) - Specified request size = 76
+15:38:46 - (id=9) - No request port specified
+15:38:46 - (id=9) - Finished parsing request
+15:38:46 - (id=9) - Connecting to remote socket
+15:38:46 - (id=9) - Request size = 451
+15:38:46 - (id=9) - Parsing request
+15:38:46 - (id=9) - Specified request size = 76
+15:38:46 - (id=9) - No request port specified
+15:38:46 - (id=9) - Finished parsing request
+15:38:46 - (id=9) - Connecting to remote socket
+15:38:46 - 
+15:38:46 - (id=10) - Reading socket 19
+15:38:47 - (id=6) - Got first response
+15:38:47 - (id=6) - Found response size (471)
+15:38:47 - (id=6) - Reached end of message (size=471)
+15:38:47 - (id=6) - Forwarding response to client
+15:38:47 - (id=6) - Finished forwarding response
+15:38:47 - (id=7) - Got first response
+15:38:47 - (id=7) - Found response size (471)
+15:38:47 - (id=7) - Reached end of message (size=471)
+15:38:47 - (id=7) - Forwarding response to client
+15:38:47 - (id=7) - Finished forwarding response
+15:38:47 - (id=3) - Forwarding request
+15:38:47 - (id=3) - Waiting for response
+15:38:47 - (id=3) - Got first response
+15:38:47 - (id=3) - Found response size (1457)
+15:38:47 - (id=3) - Reached end of message (size=1457)
+15:38:47 - (id=3) - Forwarding response to client
+15:38:47 - (id=3) - Finished forwarding response
+15:38:47 - (id=9) - Forwarding request
+15:38:47 - (id=9) - Waiting for response
+15:38:47 - (id=9) - Forwarding request
+15:38:47 - (id=9) - Waiting for response
+15:38:47 - (id=9) - Got first response
+15:38:47 - (id=9) - Found response size (1777)
+15:38:47 - (id=9) - Reached end of message (size=1777)
+15:38:47 - (id=9) - Forwarding response to client
+15:38:47 - (id=9) - Finished forwarding response
+15:38:47 - (id=9) - Got first response
+15:38:47 - (id=9) - Found response size (1777)
+15:38:47 - (id=9) - Reached end of message (size=1777)
+15:38:47 - (id=9) - Forwarding response to client
+15:38:47 - (id=9) - Finished forwarding response
+15:40:23 - USER
+15:40:23 - USER

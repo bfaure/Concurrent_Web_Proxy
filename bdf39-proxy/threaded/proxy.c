@@ -97,6 +97,8 @@ int     CUR_CLIENT_SOCKET; // thread-specific global variable (for handling thre
 
 int     *MODIFYING_OPEN_SOCKETS; // set to 1 if we are changing the open sockets array
 
+int     *total_requests;
+
 // Various locks used to ensure threadsafeness
 pthread_mutex_t read_lock = PTHREAD_MUTEX_INITIALIZER; // reading from client_socket
 pthread_mutex_t send_lock = PTHREAD_MUTEX_INITIALIZER; // not used currently
@@ -157,8 +159,10 @@ typedef struct request_data
 // to each new thread that is created.
 typedef struct thread_args
 {
-    int     client_socket;
-    struct  sockaddr_in client_addr;
+    int         client_socket;
+    struct      sockaddr_in client_addr;
+    int         listening_socket;
+    socklen_t   addrlen;
 } thread_args;
 
 //////////////////////////////////////////////////////////////////
@@ -207,17 +211,11 @@ int     is_blocked_domain(struct request_data *req_data);
 void    strip_trailing_char(char *source, const char to_remove);
 
 // Threading...
-void    on_thread_exit(int signal);
 void    on_user_command(int signal);
-void    on_child_exit(int signal);
 void    ignore_signal(int signal);
 void    synchronize_thread();
-void*   thread_handle_request(void *client_socket_ptr);
+void*   thread_main(void *req_info);
 
-int     is_open_socket(int client_socket);
-void    init_open_sockets();
-void    close_socket(int client_socket);
-void    open_socket(int client_socket);
 
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -255,53 +253,154 @@ int main(int argc, char **argv)
     struct sockaddr_in client_addr;
     socklen_t addrlen = sizeof(client_addr);
 
-    signal(SIGTERM, on_thread_exit); // call 'on_thread_exit' when a thread receives a signal to terminate
-    signal(SIGINT, on_user_command); // call 'on_user_command' when a user hits Ctrl+C in terminal
-    signal(SIGCHLD, on_child_exit); // call 'on_child_exit' if child process is terminated
+    // instruct Ctrl+C interrupts to this process to be re-routed to the synchronize thread function
+    // which will busy wait until the handle_time_spinner process has deduced whether the user
+    // wants to exit (inside the on_user_command interrupt handler)
+    if (signal(SIGINT,SIG_IGN) != SIG_IGN){  signal(SIGINT,ignore_signal);  }
 
-    // To allow multiple threads to handle several web-browser facing sockets at once
-    // we need to keep track of which sockets are currently being used. This allows us
-    // to only call close() on a socket once we are positive it's not in use. This also
-    // enables us to skip returns from Accept if the socket is already being handled/
-    init_open_sockets();
+    short num_threads = 100;
 
-    while (1)
+    int i=0;
+    for (i=0; i<num_threads; i++)
     {
-        // Ensure that the entirety of the while loop is run together
-        pthread_mutex_lock(&accept_lock);
+        *thread_ct = *thread_ct+1;
 
-        // wait for a connection from a client at listening socket
-        int client_socket   = Accept(listening_socket, (struct sockaddr*)&client_addr, &addrlen);
-        
-        // denote that we are currently handling a request at this client_socket file descriptor
-        open_socket(client_socket);
-
-        // Fill data info new thread_args struct so we can pass it to new thread
+        // Struct to hold info to pass to worker thread
         thread_args req_info;
-        req_info.client_socket = client_socket;
         req_info.client_addr = client_addr;
+        req_info.addrlen = addrlen;
+        req_info.listening_socket = listening_socket;
 
-        pthread_t request_handler;
-
-        // Create new thread to handle the request, the client_socket file descriptor and the 
-        // client_addr information are both sent to the thread wrapped in a thread_args struct
-        Pthread_create(&request_handler,NULL,thread_handle_request,(void *)&req_info);
+        // Initilize another worker thread
+        pthread_t worker_thread;
+        Pthread_create(&worker_thread,NULL,thread_main,(void *)&req_info);
 
         // Allow thread to exit and it's resources be returned to OS by default (allow zombies)
-        Pthread_detach(request_handler);
-
-        // clear the command line if not loading a request
-        if ( *threads_open==-1)
-        {  
-            *ENABLE_TIME_SPINNER = 0; 
-            printf("                                                                                                     \r");
-            fflush(stdout);
-        }
-        pthread_mutex_unlock(&accept_lock);
+        Pthread_detach(worker_thread);
     }
+
+    // sleep the main thread
+    while(1){  Sleep(5);  }
+
     // Close the proxy.log file
     Fclose(PROXY_LOG);
     exit(0);
+}
+
+void* thread_main(void *req_info)
+{
+    int thread_id = *thread_ct;
+
+    thread_args my_args = *(thread_args *)req_info;
+
+    struct sockaddr_in client_addr = my_args.client_addr;
+    int listening_socket = my_args.listening_socket;
+    socklen_t addrlen = my_args.addrlen;
+
+    while(1)
+    {
+        if (*USER_EXIT){  break;  }
+
+        pthread_mutex_lock(&accept_lock);
+        int client_socket = Accept(listening_socket, (struct sockaddr*)&client_addr, &addrlen);
+        pthread_mutex_unlock(&accept_lock);
+
+        *total_requests = *total_requests+1;
+        *threads_open   = *threads_open+1;
+
+        set_current_status(""); // denote that we have started a new request in status.log file
+
+        CUR_CLIENT_SOCKET = client_socket; // if thread is killed, we want to be able to close the socket
+        CUR_SERVER_SOCKET = -1; // default, will be set in fulfill_request
+
+        request_data req_data;      // create new request_data struct to hold parsed data
+        req_data.request_blocked    = 0; // initialize int to denote that request has not yet been blocked
+        req_data.thread_id          = thread_id;
+        *ENABLE_TIME_SPINNER        = 1; // tell handle_time_spinner to start showing status updates
+
+        add_thread_id_to_stat_buf(req_data.thread_id); // add this thread index to the stat_buf
+
+        char temp[100];
+        sprintf(temp,"Reading socket %d",client_socket);
+
+        set_current_status_id(temp,req_data.thread_id);
+        char buffer[BUFFER_PAGE_WIDTH]; // to read the socket data into
+
+        int request_size        = read(client_socket,buffer,BUFFER_PAGE_WIDTH-1); // read socket into buffer string
+        buffer[request_size]    = 0; // zero-terminate string
+
+        if ( request_size<1 )
+        {
+            remove_thread_id_from_stat_buf(thread_id); // remove this thread_id from the stat_buf
+            *threads_open = *threads_open-1;
+            if ( *threads_open==-1) {  *ENABLE_TIME_SPINNER = 0;  }
+            continue;
+        }
+
+        memcpy(req_data.request_buffer,buffer,request_size); // copy the buffer into req_data
+        req_data.request_buffer_size = request_size; // save the size of the socket read
+
+        char temp_buffer3[50];
+        sprintf(temp_buffer3,"Request size = %d",request_size);
+        set_current_status_id(temp_buffer3,req_data.thread_id);
+
+        if (request_size<0){  printf("> Error reading from socket \n");  }
+        
+        // Write request data to request.log file
+        fprintf(REQUEST_LOG,"\nREQUEST (thread_index=%d):\n%s\n--------------------\n",req_data.thread_id,buffer);
+        fflush(REQUEST_LOG);
+
+        // record the start time of the request
+        time_t t1;
+        time(&t1);
+
+        // parse the data from the listening socket into the req_data struct
+        char *uri = parse_request(&req_data,buffer);
+
+        int resp_size = 0;
+        resp_size = fulfill_request(&req_data,client_socket);
+
+        if ( resp_size<0 )
+        {
+            remove_thread_id_from_stat_buf(thread_id);
+            *threads_open = *threads_open-1;
+            if ( *threads_open==-1) {  *ENABLE_TIME_SPINNER = 0;  }
+            continue;
+        }
+
+        // record the end time of the request
+        time_t t2;
+        time(&t2);
+        int request_time = elapsed_time(t1,t2);
+
+        // update the command line interface UI
+        update_cli(&req_data,req_data.thread_id,*threads_open,resp_size,request_size,request_time);
+        fflush(stdout);
+
+        // To prevent the handle_time_spinner from selecting a status update for a request
+        // that has already been processed we need to mark that this thread id is finished...
+        remove_thread_id_from_stat_buf(req_data.thread_id); // remove this thread_id from the stat_buf
+
+        // log the information so long as the request wasn't blocked
+        if ( req_data.request_blocked==0 )
+        {
+            // log the request as per Sakai pdf
+            log_request((struct sockaddr_in*)&client_addr,uri,resp_size);
+            // print out additional information (debugging)
+            log_information(buffer,&req_data,req_data.thread_id);
+        }
+        
+        *threads_open = *threads_open - 1;
+
+        // tell the handle_time_spinner thread to show the waiting animation
+        if ( *threads_open==-1) {  *ENABLE_TIME_SPINNER = 0;  }
+        if ( (*total_requests % 50 == 0) && (thread_id!=0) ){  refresh_ui_header();  } // refresh the UI header table
+
+        free_request_data(&req_data); // free the memory allocated to req_data
+    }
+    close(listening_socket);
+    Pthread_exit(0);
+    return NULL;
 }
 
 // Called from thread_handle_request directly after a request has been read from the
@@ -401,23 +500,20 @@ char* parse_request(struct request_data *req_data, char *buffer)
 int fulfill_request(struct request_data *req_data, int client_socket)
 {
     set_current_status_id("Connecting to remote socket",req_data->thread_id); // update CLI and status.log file
+    int remote_socket = open_clientfd(req_data->req_host_domain,req_data->req_host_port_num); // try to open socket on remote machine
+        
+    if ( remote_socket <1 ){  return -1;  }
 
-    // Ensure the Open_clientfd function is threadsafe
-    pthread_mutex_lock(&send_lock);
-    int remote_socket = Open_clientfd(req_data->req_host_domain,req_data->req_host_port_num); // try to open socket on remote machine
     CUR_SERVER_SOCKET = remote_socket; // save this as a global variable (in case of premature thread exiting, see on_thread_exit)
-    pthread_mutex_unlock(&send_lock);
 
-    int send_success = forward_request_to_remote(req_data,remote_socket); // send the request to remote machine
-    int response_size = receive_response_from_remote(req_data,remote_socket); // get the response from the remote machine
+    int send_success    = forward_request_to_remote(req_data,remote_socket); // send the request to remote machine
+    int response_size   = receive_response_from_remote(req_data,remote_socket); // get the response from the remote machine
     close(remote_socket);
 
     set_current_status_id("Forwarding response to client",req_data->thread_id); // update CLI and status.log file
     int forwarding_success = forward_response_to_client(req_data,client_socket); // forward to response to client
 
-    //printf("Closing client_socket %d\n",client_socket);
-    //fflush(stdout);
-    close_socket(client_socket);
+    close(client_socket);
 
     return response_size; // return the size of response
 }
@@ -584,9 +680,6 @@ int receive_response_from_remote(struct request_data *req_data, int remote_socke
 
     fprintf(RESPONSE_LOG,"\n\n--------------------------------------------------\n\n");
     fflush(RESPONSE_LOG);
-
-    //close(remote_socket); // close the connection to remote machine
-
     if (actual_total_size!=-1){  return actual_total_size;  }
     return total_size;
 }
@@ -1028,7 +1121,10 @@ void handle_time_spinner()
 {
     // prevent this thread from reacting to SIGINT requests, other than setting
     // USER_PAUSE equal to true to prevent other threads from continuing to process
-    if (signal(SIGINT,SIG_IGN) != SIG_IGN){  signal(SIGINT,ignore_signal);  }
+    //if (signal(SIGINT,SIG_IGN) != SIG_IGN){  signal(SIGINT,ignore_signal);  }
+
+    // Re-route Ctrl+C interrupts to this process to the on_user_command function
+    signal(SIGINT, on_user_command); // call 'on_user_command' when a user hits Ctrl+C in terminal
 
     int time_spin_index = 0; // the state of the time spinner (range [0,3])
     int waiting_spin_index = 0; // the state of the waiting spinner (range [-bar_distance,max_distance])
@@ -1285,7 +1381,7 @@ char* stat_buf_top()
         }
     }
     *stat_buf_lock = 0;
-    printf("\nNothing in the stat_buf\n");
+    //printf("\nNothing in the stat_buf\n");
     return CURRENT_STATUS;
 }
 
@@ -1365,6 +1461,9 @@ void init_global_variables()
 
     MODIFYING_OPEN_SOCKETS  = mmap(NULL,sizeof(int), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_A, -1, 0);
     *MODIFYING_OPEN_SOCKETS       = 0; // number of working theads executing
+
+    total_requests = mmap(NULL,sizeof(int),PROT_READ|PROT_WRITE, MAP_SHARED|MAP_A, -1, 0);
+    *total_requests = 0;
 }
 
 // Called from the two functions handling current_status updates (set_current_status
@@ -1489,21 +1588,6 @@ char* get_user_input()
     return input;
 }
 
-// Called if the child of a process has exited, prevents the child from 
-// becoming a zombie by freeing its pid for later use by other threads.
-void on_child_exit(int signal)
-{
-    while (waitpid(-1, NULL, WNOHANG) > 0);
-}
-
-// Cleans up if a thread is terminated.
-void on_thread_exit(int signal)
-{
-    //close(CUR_SERVER_SOCKET);
-    //close(CUR_CLIENT_SOCKET);
-    exit(0);
-}
-
 // Called from the main parent thread if the user hits 'Ctrl+C', this will prompt the
 // user to enter 'Y' or 'N' to denote whether or not they want to exit the program.
 void on_user_command(int signal)
@@ -1565,187 +1649,14 @@ void ignore_signal(int signal)
 {
     *USER_PAUSE = 1;
     set_current_status("USER");
+    synchronize_thread();
 }
 
 // Holds a thread until the USER_PAUSE variable is set to 0, if USER_EXIT is set to 1 the
 // thread will exit the program.
 void synchronize_thread()
 {
-    if (*USER_EXIT)
-    {
-        //close(CUR_CLIENT_SOCKET);
-        //close(CUR_SERVER_SOCKET);
-        exit(0);
-    }
+    if (*USER_EXIT){  exit(0);  }
     while (*USER_PAUSE==1 && *USER_EXIT==0){  Sleep(1);  }
-    if (*USER_EXIT)
-    {
-        //close(CUR_CLIENT_SOCKET);
-        //close(CUR_SERVER_SOCKET);
-        exit(0);
-    }
-}
-
-// Entry function for new threads that are created to handle requests. Performs
-// same general functionality as is seen in the main function in the multi process
-// implementation.
-void* thread_handle_request(void *req_info)
-{
-    set_current_status(""); // denote that we have started a new request in status.log file
-
-    // prevent this thread from reacting to 'Ctrl+C' other than setting the USER_PAUSE variable to 1
-    //if ( signal(SIGINT,SIG_IGN)!= SIG_IGN){  signal(SIGINT,ignore_signal);  }
-    
-    // derefrence the passed thread_args struct
-    thread_args my_args = *(thread_args *)req_info;
-
-    int client_socket = my_args.client_socket;
-    struct sockaddr_in client_addr = my_args.client_addr;
-
-    CUR_CLIENT_SOCKET = client_socket; // if thread is killed, we want to be able to close the socket
-    CUR_SERVER_SOCKET = -1; // default, will be set in fulfill_request
-
-    request_data req_data; // create new request_data struct to hold parsed data
-
-    req_data.request_blocked    = 0; // initialize int to denote that request has not yet been blocked
-    req_data.thread_id          = *thread_ct; // save the index of this thread to req_data
-    *thread_ct                  = *thread_ct + 1; // increment the thread_ct integer
-    *threads_open               = *threads_open + 1; // increment the threads_open integer
-    *ENABLE_TIME_SPINNER        = 1; // tell handle_time_spinner to start showing status updates
-
-    add_thread_id_to_stat_buf(req_data.thread_id); // add this thread index to the stat_buf
-
-    char temp[100];
-    sprintf(temp,"Reading socket %d",client_socket);
-
-    set_current_status_id(temp,req_data.thread_id);
-    char buffer[BUFFER_PAGE_WIDTH]; // to read the socket data into
-
-    // Ensure that only a single thread reads at a time
-    pthread_mutex_lock(&read_lock);
-
-    // Ensure that this socket has not been closed by a prior thread
-    if (is_open_socket(client_socket)==0)
-    {
-        // If this client_socket was already handled by a different thread, exit
-        Pthread_exit(0);
-    }
-
-    int request_size        = Read(client_socket,buffer,BUFFER_PAGE_WIDTH-1); // read socket into buffer string
-    buffer[request_size]    = 0; // zero-terminate string
-
-    // unlock the read_lock variable
-    pthread_mutex_unlock(&read_lock);
-
-    memcpy(req_data.request_buffer,buffer,request_size); // copy the buffer into req_data
-    req_data.request_buffer_size = request_size; // save the size of the socket read
-
-    char temp_buffer3[50];
-    sprintf(temp_buffer3,"Request size = %d",request_size);
-    set_current_status_id(temp_buffer3,req_data.thread_id);
-
-    if (request_size<0){  printf("> Error reading from socket \n");  }
-    
-    // Write request data to request.log file
-    fprintf(REQUEST_LOG,"\nREQUEST (thread_index=%d):\n%s\n--------------------\n",req_data.thread_id,buffer);
-    fflush(REQUEST_LOG);
-
-    // record the start time of the request
-    time_t t1;
-    time(&t1);
-
-    // parse the data from the listening socket into the req_data struct
-    char *uri = parse_request(&req_data,buffer);
-
-    int resp_size = 0;
-    resp_size = fulfill_request(&req_data,client_socket);
-
-    // record the end time of the request
-    time_t t2;
-    time(&t2);
-    int request_time = elapsed_time(t1,t2);
-
-    // update the command line interface UI
-    update_cli(&req_data,req_data.thread_id,*threads_open,resp_size,request_size,request_time);
-    fflush(stdout);
-
-    // To prevent the handle_time_spinner from selecting a status update for a request
-    // that has already been processed we need to mark that this thread id is finished...
-    remove_thread_id_from_stat_buf(req_data.thread_id); // remove this thread_id from the stat_buf
-
-    // log the information so long as the request wasn't blocked
-    if ( req_data.request_blocked==0 )
-    {
-        // log the request as per Sakai pdf
-        log_request((struct sockaddr_in*)&client_addr,uri,resp_size);
-        // print out additional information (debugging)
-        log_information(buffer,&req_data,req_data.thread_id);
-    }
-    
-    *threads_open = *threads_open - 1;
-
-    // tell the handle_time_spinner thread to show the waiting animation
-    if ( *threads_open==-1) {  *ENABLE_TIME_SPINNER = 0;  }
-
-    if ( (req_data.thread_id % 50 == 0) && (req_data.thread_id!=0) ){  refresh_ui_header();  } // refresh the UI header table
-
-    free_request_data(&req_data); // free the memory allocated to req_data
-    Pthread_exit(0);
-    return NULL;
-}
-
-// Checks if the input is in the list of open sockets, if so it will return 1, 0 o.w.
-int is_open_socket(int client_socket)
-{
-    for (int i=0; i<1000; i++)
-    {
-        if (open_sockets[i]==client_socket)
-        {
-            return 1;
-        }
-    }
-    return 0;
-}
-
-// Set all values in the open_sockets array to -1, denoting that said index is not being used
-void init_open_sockets()
-{
-    for (int i=0; i<1000; i++)
-    {
-        open_sockets[i] = -1;
-    }
-}
-
-// Removes client_socket from the open_sockets array once, after this, if the client_socket
-// is still in the open_sockets array, it will busy wait until this is untrue, at which
-// point it will call close(client_socket) to close the connection
-void close_socket(int client_socket)
-{
-    for (int i=0; i<1000; i++)
-    {
-        if ( open_sockets[i]==client_socket )
-        {
-            open_sockets[i] = -1;
-            break;
-        }
-    }
-    while(is_open_socket(client_socket))
-    {
-        continue;
-    }
-    close(client_socket);
-}
-
-// Finds the first unused location in the open_sockets array and sets it equal to client_socket.
-// This is called from the main function when we encounter a new request with Accept()
-void open_socket(int client_socket)
-{
-    for (int i=0; i<1000; i++)
-    {
-        if (open_sockets[i]==-1)
-        {
-            open_sockets[i]=client_socket;
-            return;
-        }
-    }
+    if (*USER_EXIT){  exit(0);  }
 }

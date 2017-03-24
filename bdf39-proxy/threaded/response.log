@@ -2,246 +2,146 @@
 
 --------------------------------------------------
 
+
+
+--------------------------------------------------
+
 HTTP/1.1 200 OK
-Content-Type: text/html; charset=UTF-8
-Vary: Accept-Encoding
-Expires: Thu, 19 Nov 1981 08:52:00 GMT
-Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=86400, public, must-revalidate, proxy-revalidate
-Pragma: no-cache
-Content-Encoding: gzip
-Content-Length: 6663
 Accept-Ranges: bytes
-Date: Tue, 14 Mar 2017 03:18:00 GMT
-Age: 0
-Connection: keep-alive
-X-Cache: MISS
-
-‹¹eLşT0-Í¤;á#AfÚoö2Ğ¨|^«Ty7”ş5{ª åhœ±>ıÄ.Z Åb•ÁôE0-›Ô‡¨¹PtB6–šeX•[Sùæ‡«sóE°‰`ÇV}b	TeĞBÜ¢j…›)6„¤EôX‚—yîË&dMïh$5FÀÈtÿ€Ç~aÊ¬İşH¥wâGaıå(OÆ,*,¿)¼Ÿğ400Æ*V)€èP‘…qJ…&,}3•NíSóp'.,Ÿ.çŠ’PêqDNXûŒ¾Y¤:õ¯w{"}*ã!4¦€¯u°ÚgôÙÂ=++°YÇkÍÃúV0€ù•}º›!1‚”j‹¦‰âtvM¹Ã¯ør70ğÿÎd×<Ì¢¨íD˜P›â?üãG¬ÏJ	t>#o±Yıôİ
->ÈF„+Ğe¢Ûy}rqÖí}-Q`wMáªæ:Æ(W&ÂÆwÛªØIña%@§ğPà[V€¿-àš¹¿¬T[ÔÕıùÓ¡–Œs`Îj¿]WºÆˆŠ'O%¸ƒqt\‹´;¶œ½¯–¯W,¥æWRfw^<YQ%ÂªIòr¼É˜Ã?@Á«‡›‡6{‚6…÷wöo^Ì%¹XŒøHèWó/¼A>j~JF6÷åWè€a:`¦ƒŸÙL*ã˜'Š‰_•†AÓd¦¼/€5Ù9¨‡˜]¨”¹ÍËÁdfÊeî¿¿¬¤~YÙ/’”=<¸A»ÖÕ&Çïûı÷&+ba«Ş‰.-¯[d¶Õst*	o.+/”Ğc5™IG£­f]|lÌö<Å-}5	k…èÛ¯¦û²á”YÓ"]mFøˆdÜÚößÊ·Ç¥	¾{u¢2Ê’lípoÄÃW¦ñµğU@¹BÄú©9@GL¢®Í×zŠgL]é3©ÔóyR&û˜
- ŞU<2¡ÉK=…µ|¨FÀùî|¨£º¥f;Û¼j…—˜ó_ø$N(6á”EĞ12ş–™Ûª»<„ÕùŸ<>?¯(ÖÁò’¸Ğw7'xÚÓ±š$¸ûAqtÚÓ˜ƒu£¥ÆÖMbØ¸rí±aÑÃ'¡pŸ§ø<ÌQºY
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-HTTP/1.1 200 OK
-P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
-Timing-Allow-Origin: *
-Date: Tue, 14 Mar 2017 03:18:00 GMT
-Expires: Tue, 14 Mar 2017 03:18:00 GMT
-Cache-Control: private, max-age=0
-Strict-Transport-Security: max-age=21600
-Content-Type: text/html; charset=UTF-8
-X-Content-Type-Options: nosniff
-Content-Encoding: gzip
-Server: cafe
-Content-Length: 586
-X-XSS-Protection: 1; mode=block
-
-‹
-
---------------------------------------------------
-
-HTTP/1.1 200 OK
-Content-Type: text/javascript;charset=utf-8
-Date: Tue, 14 Mar 2017 03:18:00 GMT
-Server: Apache/2.2.31 (Amazon)
-Status: 200 OK
-X-Content-Type-Options: nosniff
-X-Powered-By: Phusion Passenger 4.0.50
-Content-Length: 834
-Connection: keep-alive
-
-var adtpix = {}; adtpix.google = document.createElement("img"); adtpix.google.height = 1; adtpix.google.width = 1; adtpix.google.style = "border-style: none"; adtpix.google.src = "http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0"; document.body.appendChild(adtpix.google);
-var appnexus = document.createElement("script"); appnexus.src = "//ib.adnxs.com/seg?add=2066776&t=1"; document.body.appendChild(appnexus);
-var dbmAxel = Math.random() + ""; var dbmA = dbmAxel * 10000000000000; var dbm = document.createElement("iframe"); dbm.src = "https://4782524.fls.doubleclick.net/activityi;src=4782524;type=invmedia;cat=naoxni7u;ord=" + dbmA + "?"; dbm.width="1"; dbm.height="1"; dbm.frameborder="0"; dbm.style="display:none"; document.body.appendChild(dbm); 
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-HTTP/1.1 302 Found
-P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
-Timing-Allow-Origin: *
-Date: Tue, 14 Mar 2017 03:18:00 GMT
-Pragma: no-cache
-Expires: Fri, 01 Jan 1990 00:00:00 GMT
-Cache-Control: no-cache, must-revalidate
-Location: http://www.google.com/ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=3481386725&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D9786154
-Content-Type: image/gif
-X-Content-Type-Options: nosniff
-Server: cafe
-Content-Length: 42
-X-XSS-Protection: 1; mode=block
-
-GIF89a
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-HTTP/1.1 200 OK
-Server: nginx/1.11.5
-Date: Tue, 14 Mar 2017 03:18:03 GMT
-Content-Type: application/javascript; charset=utf-8
-Content-Length: 334
-Connection: keep-alive
-Cache-Control: no-store, no-cache, private
-Pragma: no-cache
-Expires: Sat, 15 Nov 2008 16:00:00 GMT
-P3P: policyref="http://cdn.adnxs.com/w3c/policy/p3p.xml", CP="NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE"
-X-XSS-Protection: 0
-Set-Cookie: anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNYDIDtq-U2G^rrg]maBDeKuh7<xR))l!Qa3jQ8?u/hawDjC11P_WOBFmticyi6vnPet#FzA]Atig[%kFR7>bg%ur(^YZ`+71X0D5%:x(<1[Vb0QZ[`SBWD6pM@3jF_S<E34Zz=^u@[4j$4ZmWdWME4(EW<Kn2=*u; Path=/; Max-Age=7776000; Expires=Mon, 12-Jun-2017 03:18:03 GMT; Domain=.adnxs.com; HttpOnly
-Set-Cookie: sess=1; Path=/; Max-Age=86400; Expires=Wed, 15-Mar-2017 03:18:03 GMT; Domain=.adnxs.com; HttpOnly
-Set-Cookie: uuid2=2822875186555365757; Path=/; Max-Age=7776000; Expires=Mon, 12-Jun-2017 03:18:03 GMT; Domain=.adnxs.com; HttpOnly
-X-Proxy-Origin: 65.19.227.253; 65.19.227.253; 142.bm-nginx-loadbalancer.mgmt.lax1; *.adnxs.com; 104.254.150.178:80
-
-document.write('<iframe src="http://acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" style="position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0;"></iframe>');
-
---------------------------------------------------
-
-HTTP/1.1 200 OK
-P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
-Timing-Allow-Origin: *
-Date: Tue, 14 Mar 2017 03:18:01 GMT
-Expires: Tue, 14 Mar 2017 03:18:01 GMT
-Cache-Control: private, max-age=0
-Strict-Transport-Security: max-age=21600
-Content-Type: text/html; charset=UTF-8
-X-Content-Type-Options: nosniff
-Content-Encoding: gzip
-Server: cafe
-Content-Length: 586
-X-XSS-Protection: 1; mode=block
-
-‹
-
---------------------------------------------------
-
-HTTP/1.1 200 OK
-Content-Type: image/gif
-Date: Tue, 14 Mar 2017 03:18:01 GMT
-Pragma: no-cache
-Expires: Fri, 01 Jan 1990 00:00:00 GMT
-Cache-Control: no-cache, no-store, must-revalidate
-X-Content-Type-Options: nosniff
-Server: adclick_server
-Content-Length: 42
-X-XSS-Protection: 1; mode=block
-
-GIF89a
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-HTTP/1.1 304 Not Modified
-Content-Type: text/javascript
-Last-Modified: Tue, 13 Dec 2016 23:39:30 GMT
-ETag: "27d1d50349c5e810b02516f08215696b"
-Cache-Control: max-age=300, must-revalidate
-Date: Tue, 14 Mar 2017 03:18:01 GMT
-Connection: keep-alive
-
-
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-HTTP/1.1 200 OK
-Access-Control-Expose-Headers: X-FB-Content-MD5
-x-fb-content-md5: a54d6477184620076f897598cae65e3b
-ETag: "455a2fa52f519a544312e5add6b48c57"
-Content-Type: application/x-javascript; charset=utf-8
-X-Content-Type-Options: nosniff
-Strict-Transport-Security: max-age=15552000; preload
-X-XSS-Protection: 0
-X-Frame-Options: DENY
-timing-allow-origin: *
-content-security-policy: default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self' *.m-freeway.com;style-src data: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' *.m-freeway.com;
-Cache-Control: public,max-age=1200,stale-while-revalidate=3600
-Expires: Tue, 14 Mar 2017 03:35:32 GMT
-Vary: Accept-Encoding
-Content-Encoding: gzip
-Content-MD5: nM1c8z9GUSwdNvzY7igpqw==
-X-FB-Debug: nXgd+Az1X3lTB2OlYLdkDk8nJgKQVYOcnDEo9Xb4VmUvsQXAUk5YCUdy7Vl1bi3oSRDj9Qmtv6DFQ3x3RA1Ggw==
-Date: Tue, 14 Mar 2017 03:18:02 GMT
-Connection: keep-alive
-Content-Length: 4078
-
-‹
-
---------------------------------------------------
-
-HTTP/1.1 200 OK
-x-amz-id-2: mXmtTY+7mZX8udaFGXiiGrRir1zLtqS0NcP9Lcs2RHT5I9pY8ZHEdTHq8YQ3b9nYaIawc4sq670=
-x-amz-request-id: B7C8BDCA2585DF08
-Last-Modified: Thu, 09 Mar 2017 02:01:34 GMT
-ETag: "dc33501e63068fdcec9da49b539debbe"
-Cache-Control: no-cache, no-store, must-revalidate
-x-amz-version-id: wQO1HEFuIkM77ti5F6KPPPEQ5_gbp2io
-Accept-Ranges: bytes
-Content-Type: text/javascript
-Server: AmazonS3
-Vary: Accept-Encoding
-Content-Encoding: gzip
-Date: Tue, 14 Mar 2017 03:18:02 GMT
-Content-Length: 2012
-Connection: keep-alive
-Access-Control-Max-Age: 600
-Access-Control-Allow-Credentials: false
-Access-Control-Allow-Headers: *
-Access-Control-Allow-Methods: GET
-Access-Control-Allow-Origin: *
-
-‹92Œÿö²öİqªØ:µ´?P¯lc9–5†*BJ›C)z¢O°ºÔÜÉG<ë8Üm0PnHŸ]+%%­RH‰)şÕa•ımõ¦BßIš:Éiq;~9å%4z.]È6æ	Ó¦¹ôúEuåİºYÒ=áŠ§«_¥“À¸9eqq)ä}Ce`ÄPºÍPf€² µãŸ`½SUü”mk†/X«^ùIÁdsÃ»4º¢#¼ÿ‚íÈÿšíÕÅ¿€âòâ“ŠFµõJ«><Ô‹:ª^}Cwò³ öÚQåÿ=ï89Ü!çÖÂEÊH<•ñû±^âR§n"¸•õËB9ŞY¤.}
-
---------------------------------------------------
-
-
-
---------------------------------------------------
-
-HTTP/1.1 200 OK
-Date: Tue, 14 Mar 2017 03:18:04 GMT
-Server: Apache
-Last-Modified: Sat, 11 Mar 2017 11:21:28 GMT
-Expires: Sat, 18 Mar 2017 11:21:28 GMT
-ETag: 14F0A27CFFF7D020010FA62B1347682B14A84E09
-Cache-Control: max-age=374003,public,no-transform,must-revalidate
-X-OCSP-Reponder-ID: fsedcaocsp4
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Fri, 24 Mar 2017 19:38:43 GMT
+Etag: "58d53f09-1d7"
+Expires: Fri, 31 Mar 2017 07:38:43 GMT
+Last-Modified: Fri, 24 Mar 2017 15:45:13 GMT
+Server: ECS (lga/13AD)
+X-Cache: HIT
 Content-Length: 471
+
+0‚Ó
+
+
+--------------------------------------------------
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Fri, 24 Mar 2017 19:38:43 GMT
+Etag: "58d53f09-1d7"
+Expires: Fri, 31 Mar 2017 07:38:43 GMT
+Last-Modified: Fri, 24 Mar 2017 15:45:13 GMT
+Server: ECS (lga/13B1)
+X-Cache: HIT
+Content-Length: 471
+
+0‚Ó
+
+
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Fri, 24 Mar 2017 19:38:44 GMT
+Etag: "58d519a5-1d7"
+Expires: Fri, 31 Mar 2017 07:38:44 GMT
+Last-Modified: Fri, 24 Mar 2017 13:05:41 GMT
+Server: ECS (lga/1378)
+X-Cache: HIT
+Content-Length: 471
+
+0‚Ó
+
+
+--------------------------------------------------
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Fri, 24 Mar 2017 19:38:44 GMT
+Etag: "58d519a5-1d7"
+Expires: Fri, 31 Mar 2017 07:38:44 GMT
+Last-Modified: Fri, 24 Mar 2017 13:05:41 GMT
+Server: ECS (lga/1318)
+X-Cache: HIT
+Content-Length: 471
+
+0‚Ó
+
+
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Content-Type: application/ocsp-response
+Content-Length: 1457
+content-transfer-encoding: binary
+Cache-Control: max-age=388238, public, no-transform, must-revalidate
+Last-Modified: Wed, 22 Mar 2017 07:25:25 GMT
+Expires: Wed, 29 Mar 2017 07:25:25 GMT
+Date: Fri, 24 Mar 2017 19:38:44 GMT
+Connection: keep-alive
+
+0‚­
+4™¶ëâT"_èôüdÓ–§À%Ü0Uÿ0
+
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+
+HTTP/1.1 200 OK
+Date: Fri, 24 Mar 2017 19:39:37 GMT
+Server: Apache
+Content-Transfer-Encoding: Binary
+Cache-Control: max-age=111537, public, no-transform, must-revalidate
+Last-Modified: Fri, 24 Mar 2017 16:16:25 GMT
+Expires: Sun, 26 Mar 2017 04:16:25 GMT
+ETag: "7c3d0bd883600da7a5d6bdaba9a02c0fd78df3dc"
+P3P: CP="IDC DSP COR LAW CUR ADM DEV TAI PSA PSD IVA IVD HIS OUR SAM PUB LEG UNI COM NAV STA"
+Content-Length: 1777
 Connection: close
 Content-Type: application/ocsp-response
 
-0‚Ó
+0‚í
+
+
+--------------------------------------------------
+
+HTTP/1.1 200 OK
+Date: Fri, 24 Mar 2017 19:39:21 GMT
+Server: Apache
+Content-Transfer-Encoding: Binary
+Cache-Control: max-age=111552, public, no-transform, must-revalidate
+Last-Modified: Fri, 24 Mar 2017 16:16:25 GMT
+Expires: Sun, 26 Mar 2017 04:16:25 GMT
+ETag: "7c3d0bd883600da7a5d6bdaba9a02c0fd78df3dc"
+P3P: CP="IDC DSP COR LAW CUR ADM DEV TAI PSA PSD IVA IVD HIS OUR SAM PUB LEG UNI COM NAV STA"
+Content-Length: 1777
+Connection: close
+Content-Type: application/ocsp-response
+
+0‚í
 
 
 --------------------------------------------------

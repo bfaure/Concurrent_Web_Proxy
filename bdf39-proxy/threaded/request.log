@@ -1,148 +1,8 @@
 
-REQUEST (thread_index=0):
-GET http://www.ucla.edu/ HTTP/1.1
-Host: www.ucla.edu
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-
---------------------
-
-REQUEST (thread_index=1):
-GET http://a.adtpix.com/px/?id=104885 HTTP/1.1
-Host: a.adtpix.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Connection: keep-alive
-
-
---------------------
-
-REQUEST (thread_index=2):
-GET http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459? HTTP/1.1
-Host: 4393665.fls.doubleclick.net
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=A4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A19%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A19%7C7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A19
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-
---------------------
-
 REQUEST (thread_index=3):
-GET http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0 HTTP/1.1
-Host: googleads.g.doubleclick.net
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ
-Connection: keep-alive
-
-
---------------------
-
-REQUEST (thread_index=4):
-GET http://ib.adnxs.com/seg?add=2066776&t=1 HTTP/1.1
-Host: ib.adnxs.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: uuid2=2822875186555365757; anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNO.[8tq-V_#0Iu!@f%OD*t>6FYs(R6O6bQLB]K3Fg^CsGbjZ+Cw?A8>db7]?#eJ:SLc'Rcd=1bb9L^-[/OGvJ4KG>3X[34scsa`m7NxGXdqdW=5u]C=.T<[s5es]ziUEh3?ik^)RfpB(>.VDs!]t+@!$Uv55$rYZ; sess=1
-Connection: keep-alive
-
-
---------------------
-
-REQUEST (thread_index=5):
-GET http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent HTTP/1.1
-Host: 4393665.fls.doubleclick.net
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=A4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A19%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A19%7C7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A19
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-
---------------------
-
-REQUEST (thread_index=6):
-GET http://www.google.com/ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=3481386725&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D9786154 HTTP/1.1
-Host: www.google.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: NID=98=odphOLW_xRdQh8POhhh3122QYDYo0-mJ-sh29_nrOme71SqIMQ7HEY-Dm4jkyRunhe5fQJyGVan2QFsMKqWhKUUKeThaVjvKG7pErM8NAt8ts1nn82Q6LBpbhPmVTJmI
-Connection: keep-alive
-
-
---------------------
-
-REQUEST (thread_index=7):
-GET http://a.adroll.com/j/roundtrip.js HTTP/1.1
-Host: a.adroll.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
-Connection: keep-alive
-If-Modified-Since: Tue, 13 Dec 2016 23:39:30 GMT
-If-None-Match: "27d1d50349c5e810b02516f08215696b"
-
-
---------------------
-
-REQUEST (thread_index=8):
-GET http://connect.facebook.net/en_US/fbevents.js HTTP/1.1
-Host: connect.facebook.net
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
-Connection: keep-alive
-
-
---------------------
-
-REQUEST (thread_index=9):
-GET http://s.adroll.com/j/sendrolling.js HTTP/1.1
-Host: s.adroll.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
-Connection: keep-alive
-
-
---------------------
-
-REQUEST (thread_index=10):
-POST http://ocsp.comodoca.com/ HTTP/1.1
-Host: ocsp.comodoca.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+POST http://gj.symcd.com/ HTTP/1.1
+Host: gj.symcd.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
@@ -151,4 +11,88 @@ Content-Type: application/ocsp-request
 Connection: keep-alive
 
 0Q0O0M0K0I0	+
+--------------------
+
+REQUEST (thread_index=4):
+POST http://ocsp.digicert.com/ HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+--------------------
+
+REQUEST (thread_index=5):
+POST http://ocsp.digicert.com/ HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+--------------------
+
+REQUEST (thread_index=6):
+POST http://ocsp.digicert.com/ HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+--------------------
+
+REQUEST (thread_index=7):
+POST http://ocsp.digicert.com/ HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+--------------------
+
+REQUEST (thread_index=9):
+POST http://ocsp.godaddy.com/ HTTP/1.1
+Host: ocsp.godaddy.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 76
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0J0H0F0D0B0	+
+--------------------
+
+REQUEST (thread_index=9):
+POST http://ocsp.godaddy.com/ HTTP/1.1
+Host: ocsp.godaddy.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 76
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0J0H0F0D0B0	+
 --------------------

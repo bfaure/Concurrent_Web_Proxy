@@ -1,507 +1,312 @@
 
 
 =============================================================
-====================REQUEST (thread 0)====================
-GET http://www.ucla.edu/ HTTP/1.1
-Host: www.ucla.edu
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-
-==================SENT REQUEST [21:18:1]===================
-GET / HTTP/1.1
-Host: www.ucla.edu:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Cookie: _ga=GA1.2.832310577.1488221250; PHPSESSID=ttb6rhu87vvjgf2u9gn7gh1tc7
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-
-===================RESPONSE [21:18:1]======================
-HTTP/1.1 200 OK
-Content-Type: text/html; charset=UTF-8
-Vary: Accept-Encoding
-Expires: Thu, 19 Nov 1981 08:52:00 GMT
-Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=86400, public, must-revalidate, proxy-revalidate
-Pragma: no-cache
-Content-Encoding: gzip
-Content-Length: 6663
-Accept-Ranges: bytes
-Date: Tue, 14 Mar 2017 03:18:00 GMT
-Age: 0
-Connection: keep-alive
-X-Cache: MISS
-
-ã
-πeL˛T0-Õ§;·#Af⁄oˆ2–®|^´Ty7î˛5{™ Âhú±>˝ƒ.ÅZ†≈bï¡ÙE0-õ‘á®πPtB6ñöeXï[S˘Êá´sÛE∞â`«V}b	Te–B‹¢jÖõ)6
-Ñ§EÙXÇóyÓûÀ&dMÔèh$5F¿»tˇÄ«~a ¨›˛H•w‚Ga˝Â(O∆,*,ø)ºü400∆*V)ÄËPëÖqJÖ&,}3ïNÌSÛp'.,éü.ÁäíPÍqDNX˚åæY§:ıØw{"}*„!ê4¶ÄØu∞⁄gÙŸ¬=++∞Y«kÕÅ√˙V0Ä˘ï}∫õ!1Çîjã¶â‚tvMπ√Ø¯r70ˇŒd◊<Ã¢®ÌDòPõ‚?¸„G¨œJ	t>#o±Y˝Ù›
->»FÑ+–e¢€y}rq÷Ì}-Q`wM·™Ê:∆(Wéé&¬∆w€™ÿIÒa%@ßPê‡[VÄø-‡öπø¨T[‘’˝˘”°Åûñås`Œjø]W∫∆àä'O%∏Éqt\ã¥;∂úΩØñØW,•ÊWRf
-w^<YêQ%¬™IÚrº…ò√?@¡´áõá6{Ç6Ö˜wˆo^Ã%πXûå¯HËWÛ/ºA>j~JF6˜ÂWËÄa:`¶ÉüŸL*„ò'äâ_ïÜA”d¶º/Ä5Ÿ9®áò]®îπÕÀ¡df eÓøø¨§~YŸ/íî=<∏Aª÷’&«Ô˚˝˜&+ba´Åﬁâ.-Ø[d∂’st*	o.+/îÅ–c5ôIG£≠f]|lÃˆ<≈-}5	kÖË€Ø¶ù˚≤·îY”"]mF¯àd‹⁄çˆﬂ ∑«•	æ{u¢2 ílÌpoƒ√W¶ÒµU@πBƒ˙©9é@GL¢ÆÕ◊zägL]È3©é‘ÛyR&˚ò
-†ﬁU<2°…K=Öµ|®F¿
-˘Ó|®£∫•f;€ºjÖóòÛ_¯$N(6·îE–12˛ñô€™ª<Ñ’˘ü<>?Ø(÷¡Úí∏–w7'x⁄”±ö$∏˚Aqt⁄”ûòÉu£•∆÷Mbÿ∏rÌ±a—ç√'°püß¯<ÃQ∫Y
-
-
-=============================================================
-
-
-=============================================================
-====================REQUEST (thread 2)====================
-GET http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459? HTTP/1.1
-Host: 4393665.fls.doubleclick.net
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=A4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A19%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A19%7C7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A19
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-
-==================SENT REQUEST [21:18:1]===================
-GET /activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459? HTTP/1.1
-Host: 4393665.fls.doubleclick.net:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=A4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A19%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A19%7C7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A19
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-
-===================RESPONSE [21:18:1]======================
-HTTP/1.1 200 OK
-P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
-Timing-Allow-Origin: *
-Date: Tue, 14 Mar 2017 03:18:00 GMT
-Expires: Tue, 14 Mar 2017 03:18:00 GMT
-Cache-Control: private, max-age=0
-Strict-Transport-Security: max-age=21600
-Content-Type: text/html; charset=UTF-8
-X-Content-Type-Options: nosniff
-Content-Encoding: gzip
-Server: cafe
-Content-Length: 586
-X-XSS-Protection: 1; mode=block
-
-ã
-
-=============================================================
-
-
-=============================================================
-====================REQUEST (thread 1)====================
-GET http://a.adtpix.com/px/?id=104885 HTTP/1.1
-Host: a.adtpix.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Connection: keep-alive
-
-
-==================SENT REQUEST [21:18:1]===================
-GET /px/?id=104885 HTTP/1.1
-Host: a.adtpix.com:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Connection: keep-alive
-
-
-===================RESPONSE [21:18:1]======================
-HTTP/1.1 200 OK
-Content-Type: text/javascript;charset=utf-8
-Date: Tue, 14 Mar 2017 03:18:00 GMT
-Server: Apache/2.2.31 (Amazon)
-Status: 200 OK
-X-Content-Type-Options: nosniff
-X-Powered-By: Phusion Passenger 4.0.50
-Content-Length: 834
-Connection: keep-alive
-
-var adtpix = {}; adtpix.google = document.createElement("img"); adtpix.google.height = 1; adtpix.google.width = 1; adtpix.google.style = "border-style: none"; adtpix.google.src = "http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0"; document.body.appendChild(adtpix.google);
-var appnexus = document.createElement("script"); appnexus.src = "//ib.adnxs.com/seg?add=2066776&t=1"; document.body.appendChild(appnexus);
-var dbmAxel = Math.random() + ""; var dbmA = dbmAxel * 10000000000000; var dbm = document.createElement("iframe"); dbm.src = "https://4782524.fls.doubleclick.net/activityi;src=4782524;type=invmedia;cat=naoxni7u;ord=" + dbmA + "?"; dbm.width="1"; dbm.height="1"; dbm.frameborder="0"; dbm.style="display:none"; document.body.appendChild(dbm); 
-
-=============================================================
-
-
-=============================================================
-====================REQUEST (thread 3)====================
-GET http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0 HTTP/1.1
-Host: googleads.g.doubleclick.net
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ
-Connection: keep-alive
-
-
-==================SENT REQUEST [21:18:2]===================
-GET /pagead/viewthroughconversion/1011963747/?value=1.00&label=icsgCNydulYQ467F4gM&guid=ON&script=0 HTTP/1.1
-Host: googleads.g.doubleclick.net:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ
-Connection: keep-alive
-
-
-===================RESPONSE [21:18:2]======================
-HTTP/1.1 302 Found
-P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
-Timing-Allow-Origin: *
-Date: Tue, 14 Mar 2017 03:18:00 GMT
-Pragma: no-cache
-Expires: Fri, 01 Jan 1990 00:00:00 GMT
-Cache-Control: no-cache, must-revalidate
-Location: http://www.google.com/ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=3481386725&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D9786154
-Content-Type: image/gif
-X-Content-Type-Options: nosniff
-Server: cafe
-Content-Length: 42
-X-XSS-Protection: 1; mode=block
-
-GIF89a
-
-=============================================================
-
-
-=============================================================
 ====================REQUEST (thread 4)====================
-GET http://ib.adnxs.com/seg?add=2066776&t=1 HTTP/1.1
-Host: ib.adnxs.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
+POST http://ocsp.digicert.com/ HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: uuid2=2822875186555365757; anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNO.[8tq-V_#0Iu!@f%OD*t>6FYs(R6O6bQLB]K3Fg^CsGbjZ+Cw?A8>db7]?#eJ:SLc'Rcd=1bb9L^-[/OGvJ4KG>3X[34scsa`m7NxGXdqdW=5u]C=.T<[s5es]ziUEh3?ik^)RfpB(>.VDs!]t+@!$Uv55$rYZ; sess=1
+Content-Length: 83
+Content-Type: application/ocsp-request
 Connection: keep-alive
 
-
-==================SENT REQUEST [21:18:2]===================
-GET /seg?add=2066776&t=1 HTTP/1.1
-Host: ib.adnxs.com:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
+0Q0O0M0K0I0	+
+==================SENT REQUEST [15:38:46]===================
+POST / HTTP/1.1
+Host: ocsp.digicert.com:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: uuid2=2822875186555365757; anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNO.[8tq-V_#0Iu!@f%OD*t>6FYs(R6O6bQLB]K3Fg^CsGbjZ+Cw?A8>db7]?#eJ:SLc'Rcd=1bb9L^-[/OGvJ4KG>3X[34scsa`m7NxGXdqdW=5u]C=.T<[s5es]ziUEh3?ik^)RfpB(>.VDs!]t+@!$Uv55$rYZ; sess=1
+Content-Length: 83
+Content-Type: application/ocsp-request
 Connection: keep-alive
 
-
-===================RESPONSE [21:18:2]======================
+0Q0O0M0K0I0	+
+===================RESPONSE [15:38:46]======================
 HTTP/1.1 200 OK
-Server: nginx/1.11.5
-Date: Tue, 14 Mar 2017 03:18:03 GMT
-Content-Type: application/javascript; charset=utf-8
-Content-Length: 334
-Connection: keep-alive
-Cache-Control: no-store, no-cache, private
-Pragma: no-cache
-Expires: Sat, 15 Nov 2008 16:00:00 GMT
-P3P: policyref="http://cdn.adnxs.com/w3c/policy/p3p.xml", CP="NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE"
-X-XSS-Protection: 0
-Set-Cookie: anj=dTM7k!M41$DYRWSF']wIg2In8d[$LRNYDIDtq-U2G^rrg]maBDeKuh7<xR))l!Qa3jQ8?u/hawDjC11P_WOBFmticyi6vnPet#FzA]Atig[%kFR7>bg%ur(^YZ`+71X0D5%:x(<1[Vb0QZ[`SBWD6pM@3jF_S<E34Zz=^u@[4j$4ZmWdWME4(EW<Kn2=*u; Path=/; Max-Age=7776000; Expires=Mon, 12-Jun-2017 03:18:03 GMT; Domain=.adnxs.com; HttpOnly
-Set-Cookie: sess=1; Path=/; Max-Age=86400; Expires=Wed, 15-Mar-2017 03:18:03 GMT; Domain=.adnxs.com; HttpOnly
-Set-Cookie: uuid2=2822875186555365757; Path=/; Max-Age=7776000; Expires=Mon, 12-Jun-2017 03:18:03 GMT; Domain=.adnxs.com; HttpOnly
-X-Proxy-Origin: 65.19.227.253; 65.19.227.253; 142.bm-nginx-loadbalancer.mgmt.lax1; *.adnxs.com; 104.254.150.178:80
+Accept-Ranges: bytes
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Fri, 24 Mar 2017 19:38:43 GMT
+Etag: "58d53f09-1d7"
+Expires: Fri, 31 Mar 2017 07:38:43 GMT
+Last-Modified: Fri, 24 Mar 2017 15:45:13 GMT
+Server: ECS (lga/13AD)
+X-Cache: HIT
+Content-Length: 471
 
-document.write('<iframe src="http://acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" style="position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0;"></iframe>');l0û2liN 
+0Ç”
+
 
 =============================================================
 
 
 =============================================================
 ====================REQUEST (thread 5)====================
-GET http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent HTTP/1.1
-Host: 4393665.fls.doubleclick.net
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+POST http://ocsp.digicert.com/ HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=A4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A19%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A19%7C7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A19
+Content-Length: 83
+Content-Type: application/ocsp-request
 Connection: keep-alive
-Upgrade-Insecure-Requests: 1
 
-
-==================SENT REQUEST [21:18:2]===================
-GET /activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent HTTP/1.1
-Host: 4393665.fls.doubleclick.net:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+0Q0O0M0K0I0	+
+==================SENT REQUEST [15:38:46]===================
+POST / HTTP/1.1
+Host: ocsp.digicert.com:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: id=22814ca8162d0015||t=1488219924|et=730|cs=002213fd485c842ef44acac903; IDE=AHWqTUkHBmufNOxU5PeE-PHCg1r-g0qB1vMe4UKDtbOiymiVXRN2AlUwMQ; __ar_v4=A4FYHXZ46RHHTJRZ2SSWZC%3A20170229%3A19%7CFQ6MX7Y725EAHPEMH6WRLN%3A20170229%3A19%7C7PAOT2N7NZDSFDM7VNB3KN%3A20170229%3A19
+Content-Length: 83
+Content-Type: application/ocsp-request
 Connection: keep-alive
-Upgrade-Insecure-Requests: 1
 
-
-===================RESPONSE [21:18:2]======================
+0Q0O0M0K0I0	+
+===================RESPONSE [15:38:46]======================
 HTTP/1.1 200 OK
-P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
-Timing-Allow-Origin: *
-Date: Tue, 14 Mar 2017 03:18:01 GMT
-Expires: Tue, 14 Mar 2017 03:18:01 GMT
-Cache-Control: private, max-age=0
-Strict-Transport-Security: max-age=21600
-Content-Type: text/html; charset=UTF-8
-X-Content-Type-Options: nosniff
-Content-Encoding: gzip
-Server: cafe
-Content-Length: 586
-X-XSS-Protection: 1; mode=block
+Accept-Ranges: bytes
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Fri, 24 Mar 2017 19:38:43 GMT
+Etag: "58d53f09-1d7"
+Expires: Fri, 31 Mar 2017 07:38:43 GMT
+Last-Modified: Fri, 24 Mar 2017 15:45:13 GMT
+Server: ECS (lga/13B1)
+X-Cache: HIT
+Content-Length: 471
 
-ã
+0Ç”
+
 
 =============================================================
 
 
 =============================================================
 ====================REQUEST (thread 6)====================
-GET http://www.google.com/ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=3481386725&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D9786154 HTTP/1.1
-Host: www.google.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
+POST http://ocsp.digicert.com/ HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: NID=98=odphOLW_xRdQh8POhhh3122QYDYo0-mJ-sh29_nrOme71SqIMQ7HEY-Dm4jkyRunhe5fQJyGVan2QFsMKqWhKUUKeThaVjvKG7pErM8NAt8ts1nn82Q6LBpbhPmVTJmI
+Content-Length: 83
+Content-Type: application/ocsp-request
 Connection: keep-alive
 
-
-==================SENT REQUEST [21:18:2]===================
-GET /ads/user-lists/1011963747/?label=icsgCNydulYQ467F4gM&script=0&random=3481386725&fpvtc=/1011963747/%3Fvalue%3D1.00%26label%3DicsgCNydulYQ467F4gM%26guid%3DON%26script%3D0%26random%3D9786154 HTTP/1.1
-Host: www.google.com:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
+0Q0O0M0K0I0	+
+==================SENT REQUEST [15:38:46]===================
+POST / HTTP/1.1
+Host: ocsp.digicert.com:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://www.ucla.edu/
-Cookie: NID=98=odphOLW_xRdQh8POhhh3122QYDYo0-mJ-sh29_nrOme71SqIMQ7HEY-Dm4jkyRunhe5fQJyGVan2QFsMKqWhKUUKeThaVjvKG7pErM8NAt8ts1nn82Q6LBpbhPmVTJmI
+Content-Length: 83
+Content-Type: application/ocsp-request
 Connection: keep-alive
 
-
-===================RESPONSE [21:18:2]======================
+0Q0O0M0K0I0	+
+===================RESPONSE [15:38:47]======================
 HTTP/1.1 200 OK
-Content-Type: image/gif
-Date: Tue, 14 Mar 2017 03:18:01 GMT
-Pragma: no-cache
-Expires: Fri, 01 Jan 1990 00:00:00 GMT
-Cache-Control: no-cache, no-store, must-revalidate
-X-Content-Type-Options: nosniff
-Server: adclick_server
-Content-Length: 42
-X-XSS-Protection: 1; mode=block
+Accept-Ranges: bytes
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Fri, 24 Mar 2017 19:38:44 GMT
+Etag: "58d519a5-1d7"
+Expires: Fri, 31 Mar 2017 07:38:44 GMT
+Last-Modified: Fri, 24 Mar 2017 13:05:41 GMT
+Server: ECS (lga/1378)
+X-Cache: HIT
+Content-Length: 471
 
-GIF89a
+0Ç”
+
 
 =============================================================
 
 
 =============================================================
 ====================REQUEST (thread 7)====================
-GET http://a.adroll.com/j/roundtrip.js HTTP/1.1
-Host: a.adroll.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
+POST http://ocsp.digicert.com/ HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
+Content-Length: 83
+Content-Type: application/ocsp-request
 Connection: keep-alive
-If-Modified-Since: Tue, 13 Dec 2016 23:39:30 GMT
-If-None-Match: "27d1d50349c5e810b02516f08215696b"
 
-
-==================SENT REQUEST [21:18:2]===================
-GET /j/roundtrip.js HTTP/1.1
-Host: a.adroll.com:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
+0Q0O0M0K0I0	+
+==================SENT REQUEST [15:38:46]===================
+POST / HTTP/1.1
+Host: ocsp.digicert.com:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
-Connection: keep-alive
-If-Modified-Since: Tue, 13 Dec 2016 23:39:30 GMT
-If-None-Match: "27d1d50349c5e810b02516f08215696b"
-
-
-===================RESPONSE [21:18:3]======================
-HTTP/1.1 304 Not Modified
-Content-Type: text/javascript
-Last-Modified: Tue, 13 Dec 2016 23:39:30 GMT
-ETag: "27d1d50349c5e810b02516f08215696b"
-Cache-Control: max-age=300, must-revalidate
-Date: Tue, 14 Mar 2017 03:18:01 GMT
+Content-Length: 83
+Content-Type: application/ocsp-request
 Connection: keep-alive
 
-ñ21:18:3
-
-=============================================================
-
-
-=============================================================
-====================REQUEST (thread 8)====================
-GET http://connect.facebook.net/en_US/fbevents.js HTTP/1.1
-Host: connect.facebook.net
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
-Connection: keep-alive
-
-
-==================SENT REQUEST [21:18:3]===================
-GET /en_US/fbevents.js HTTP/1.1
-Host: connect.facebook.net:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
-Connection: keep-alive
-
-
-===================RESPONSE [21:18:4]======================
+0Q0O0M0K0I0	+
+===================RESPONSE [15:38:47]======================
 HTTP/1.1 200 OK
-Access-Control-Expose-Headers: X-FB-Content-MD5
-x-fb-content-md5: a54d6477184620076f897598cae65e3b
-ETag: "455a2fa52f519a544312e5add6b48c57"
-Content-Type: application/x-javascript; charset=utf-8
-X-Content-Type-Options: nosniff
-Strict-Transport-Security: max-age=15552000; preload
-X-XSS-Protection: 0
-X-Frame-Options: DENY
-timing-allow-origin: *
-content-security-policy: default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self' *.m-freeway.com;style-src data: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' *.m-freeway.com;
-Cache-Control: public,max-age=1200,stale-while-revalidate=3600
-Expires: Tue, 14 Mar 2017 03:35:32 GMT
-Vary: Accept-Encoding
-Content-Encoding: gzip
-Content-MD5: nM1c8z9GUSwdNvzY7igpqw==
-X-FB-Debug: nXgd+Az1X3lTB2OlYLdkDk8nJgKQVYOcnDEo9Xb4VmUvsQXAUk5YCUdy7Vl1bi3oSRDj9Qmtv6DFQ3x3RA1Ggw==
-Date: Tue, 14 Mar 2017 03:18:02 GMT
-Connection: keep-alive
-Content-Length: 4078
+Accept-Ranges: bytes
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Fri, 24 Mar 2017 19:38:44 GMT
+Etag: "58d519a5-1d7"
+Expires: Fri, 31 Mar 2017 07:38:44 GMT
+Last-Modified: Fri, 24 Mar 2017 13:05:41 GMT
+Server: ECS (lga/1318)
+X-Cache: HIT
+Content-Length: 471
 
-nÆ
+0Ç”
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 3)====================
+POST http://gj.symcd.com/ HTTP/1.1
+Host: gj.symcd.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+==================SENT REQUEST [15:38:47]===================
+POST / HTTP/1.1
+Host: gj.symcd.com:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 83
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0Q0O0M0K0I0	+
+===================RESPONSE [15:38:47]======================
+HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Content-Type: application/ocsp-response
+Content-Length: 1457
+content-transfer-encoding: binary
+Cache-Control: max-age=388238, public, no-transform, must-revalidate
+Last-Modified: Wed, 22 Mar 2017 07:25:25 GMT
+Expires: Wed, 29 Mar 2017 07:25:25 GMT
+Date: Fri, 24 Mar 2017 19:38:44 GMT
+Connection: keep-alive
+
+0Ç≠
+
+4ô∂Î‚T"_ËÙ¸d”ñß¿%‹0Uˇ0
 
 =============================================================
 
 
 =============================================================
 ====================REQUEST (thread 9)====================
-GET http://s.adroll.com/j/sendrolling.js HTTP/1.1
-Host: s.adroll.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
-Connection: keep-alive
-
-
-==================SENT REQUEST [21:18:3]===================
-GET /j/sendrolling.js HTTP/1.1
-Host: s.adroll.com:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: http://4393665.fls.doubleclick.net/activityi;src=4393665;type=Prima0;cat=UCLAe0;ord=9484417221128.459??wmode=transparent
-Connection: keep-alive
-
-
-===================RESPONSE [21:18:5]======================
-HTTP/1.1 200 OK
-x-amz-id-2: mXmtTY+7mZX8udaFGXiiGrRir1zLtqS0NcP9Lcs2RHT5I9pY8ZHEdTHq8YQ3b9nYaIawc4sq670=
-x-amz-request-id: B7C8BDCA2585DF08
-Last-Modified: Thu, 09 Mar 2017 02:01:34 GMT
-ETag: "dc33501e63068fdcec9da49b539debbe"
-Cache-Control: no-cache, no-store, must-revalidate
-x-amz-version-id: wQO1HEFuIkM77ti5F6KPPPEQ5_gbp2io
-Accept-Ranges: bytes
-Content-Type: text/javascript
-Server: AmazonS3
-Vary: Accept-Encoding
-Content-Encoding: gzip
-Date: Tue, 14 Mar 2017 03:18:02 GMT
-Content-Length: 2012
-Connection: keep-alive
-Access-Control-Max-Age: 600
-Access-Control-Allow-Credentials: false
-Access-Control-Allow-Headers: *
-Access-Control-Allow-Methods: GET
-Access-Control-Allow-Origin: *
-
-ã
-92åˇˆ≤ˆ›q™ÿ:µ¥?PØlc9ñ5Ü*BJõC)z¢éO∞∫‘‹…G<Î8‹m0PnHü]+%%≠RùHâ)˛’aï˝mı¶BﬂIö:…iq;~9ÂÅ%4z.ç]ÅÅ»6Ê	”¶πÙè˙EuÂ›∫Y“=·äß´_•ì¿∏9eqq)‰}Cçe`ƒP∫ÕPfÄ≤†µ„ü`ΩSU¸îmkÜ/X´^˘I¡ds√ª4∫¢#ºˇÇÌ»ˇöÌ’≈øÄ‚Ú‚ìäFµıJ´><‘ã:™^}CwÚ≥†ˆ⁄QÂˇ=éÔ89‹!Á÷¬E H<ïÒ˚±^‚Rßn"∏ïıÀB9ﬁYû§.}
-
-=============================================================
-
-
-=============================================================
-====================REQUEST (thread 10)====================
-POST http://ocsp.comodoca.com/ HTTP/1.1
-Host: ocsp.comodoca.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+POST http://ocsp.godaddy.com/ HTTP/1.1
+Host: ocsp.godaddy.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Content-Length: 83
+Content-Length: 76
 Content-Type: application/ocsp-request
 Connection: keep-alive
 
-0Q0O0M0K0I0	+
-==================SENT REQUEST [21:18:5]===================
+0J0H0F0D0B0	+
+==================SENT REQUEST [15:38:47]===================
 POST / HTTP/1.1
-Host: ocsp.comodoca.com:80
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
+Host: ocsp.godaddy.com:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Content-Length: 83
+Content-Length: 76
 Content-Type: application/ocsp-request
 Connection: keep-alive
 
-0Q0O0M0K0I0	+
-===================RESPONSE [21:18:5]======================
+0J0H0F0D0B0	+
+===================RESPONSE [15:38:47]======================
 HTTP/1.1 200 OK
-Date: Tue, 14 Mar 2017 03:18:04 GMT
+Date: Fri, 24 Mar 2017 19:39:37 GMT
 Server: Apache
-Last-Modified: Sat, 11 Mar 2017 11:21:28 GMT
-Expires: Sat, 18 Mar 2017 11:21:28 GMT
-ETag: 14F0A27CFFF7D020010FA62B1347682B14A84E09
-Cache-Control: max-age=374003,public,no-transform,must-revalidate
-X-OCSP-Reponder-ID: fsedcaocsp4
-Content-Length: 471
+Content-Transfer-Encoding: Binary
+Cache-Control: max-age=111537, public, no-transform, must-revalidate
+Last-Modified: Fri, 24 Mar 2017 16:16:25 GMT
+Expires: Sun, 26 Mar 2017 04:16:25 GMT
+ETag: "7c3d0bd883600da7a5d6bdaba9a02c0fd78df3dc"
+P3P: CP="IDC DSP COR LAW CUR ADM DEV TAI PSA PSD IVA IVD HIS OUR SAM PUB LEG UNI COM NAV STA"
+Content-Length: 1777
 Connection: close
 Content-Type: application/ocsp-response
 
-0Ç”
+0ÇÌ
 
+
+
+=============================================================
+
+
+=============================================================
+====================REQUEST (thread 9)====================
+POST http://ocsp.godaddy.com/ HTTP/1.1
+Host: ocsp.godaddy.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 76
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0J0H0F0D0B0	+
+==================SENT REQUEST [15:38:47]===================
+POST / HTTP/1.1
+Host: ocsp.godaddy.com:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Length: 76
+Content-Type: application/ocsp-request
+Connection: keep-alive
+
+0J0H0F0D0B0	+
+===================RESPONSE [15:38:47]======================
+HTTP/1.1 200 OK
+Date: Fri, 24 Mar 2017 19:39:21 GMT
+Server: Apache
+Content-Transfer-Encoding: Binary
+Cache-Control: max-age=111552, public, no-transform, must-revalidate
+Last-Modified: Fri, 24 Mar 2017 16:16:25 GMT
+Expires: Sun, 26 Mar 2017 04:16:25 GMT
+ETag: "7c3d0bd883600da7a5d6bdaba9a02c0fd78df3dc"
+P3P: CP="IDC DSP COR LAW CUR ADM DEV TAI PSA PSD IVA IVD HIS OUR SAM PUB LEG UNI COM NAV STA"
+Content-Length: 1777
+Connection: close
+Content-Type: application/ocsp-response
+
+0ÇÌ
+
+
 
 =============================================================
